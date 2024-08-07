@@ -1,0 +1,30 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label saki_sc2 is defined twice, at File "game/script_saki.rpyc", line 3:
+
+and File "game/story/ltf_act_1/scene_2_portInAStorm.rpy", line 1:
+label saki_sc2:
+
+
+The label _call_timeskip_1 is defined twice, at File "game/script_saki.rpyc", line 772:
+
+and File "game/story/ltf_act_1/scene_2_portInAStorm.rpy", line 770:
+    call timeskip from _call_timeskip_1
+
+
+The label saki_sc3 is defined twice, at File "game/script_saki.rpyc", line 776:
+
+and File "game/story/ltf_act_1/scene_3_electricDaisiesPart1.rpy", line 1:
+label saki_sc3:
+
+
+The label saki_sc4 is defined twice, at File "game/script_saki.rpyc", line 1550:
+
+and File "game/story/ltf_act_1/scene_4_electricDaisiesPart2.rpy", line 4:
+label saki_sc4:
+
+
+Ren'Py Version: Ren'Py 8.2.3.24061702
+Tue Aug  6 16:31:35 2024
