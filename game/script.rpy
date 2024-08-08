@@ -21,6 +21,8 @@ define Nomiya = Character("Nomiya", color="#E1DCD8",  what_suffix='"', what_pref
 
 define Kyle = Character("Kyle", color="#f3f3f3",  what_suffix='"', what_prefix='"')
 
+define story = nvl_narrator
+
 
 image start_menu_bus_ride = "event/busride_ni.jpg"
 
@@ -42,6 +44,10 @@ label start:
             jump act_1
         "Act 2":
             jump act_2
+        "Act 3":
+            jump act_3
+        "Act 4":
+            jump act_4
 
     return
 
@@ -78,6 +84,67 @@ label act_2:
             jump saki_sc11
         "Scene 12":
             jump saki_sc12
+
+label act_3:
+    menu:
+        "Where do you want to go?"
+
+        "Scene 14":
+            jump saki_sc14
+        "Scene 15":
+            jump saki_sc15
+        "Scene 16":
+            jump saki_sc16
+        "Scene 17":
+            jump saki_sc17
+        "Scene 18":
+            jump saki_sc18
+        "Scene 19":
+            jump saki_sc19
+        "Scene 20":
+            jump saki_sc20
+        "Scene 21":
+            jump saki_sc21
+        "Scene 22":
+            jump saki_sc22
+        "Scene 23":
+            jump saki_sc23
+        "Scene 24":
+            jump saki_sc24
+        "Scene 25":
+            jump saki_sc25
+
+label act_4:
+    menu:
+        "Where do you want to go?"
+
+        "Scene 26":
+            jump saki_sc26
+        "Scene 27":
+            jump saki_sc27
+        "Scene 28":
+            jump saki_sc28
+        "Scene 29":
+            jump saki_sc29
+        "Scene 30":
+            jump saki_sc30
+        "Scene 31":
+            jump saki_sc31
+        "Scene 32":
+            jump saki_sc32
+        "Scene 33":
+            jump saki_sc33
+        "Scene 34":
+            jump saki_sc34
+        "Scene 35":
+            jump saki_sc35
+        "Scene 36":
+            jump saki_sc36
+        "Scene 37":
+            jump saki_sc37
+        "Scene 38":
+            jump saki_sc38
+        
 
 
 

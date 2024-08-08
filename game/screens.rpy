@@ -209,9 +209,26 @@ style input:
 screen choice(items):
     style_prefix "choice"
 
-    vbox:
-        for i in items:
-            textbutton i.caption action i.action
+    if len(items) >= 7:
+        viewport:
+            draggable True
+            mousewheel True
+            scrollbars "vertical"
+
+            xsize gui.choice_button_width
+            ysize config.screen_height - 500
+
+            xalign 0.5
+            yalign 0.3
+
+            vbox:
+                for i in items:
+                    textbutton i.caption action i.action
+    else:
+
+        vbox:
+            for i in items:
+                textbutton i.caption action i.action
 
 
 style choice_vbox is vbox
