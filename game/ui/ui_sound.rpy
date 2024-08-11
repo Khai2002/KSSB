@@ -55,5 +55,6 @@ define crowd_indoors = "sfx/crowd_indoors.ogg"
 define door_open = "sfx/dooropen.ogg"
 define watersplash = "sfx/watersplash.ogg"
 define switch = "sfx/switch.ogg"
+define door_creak = "sfx/door_creak.ogg"
 
 

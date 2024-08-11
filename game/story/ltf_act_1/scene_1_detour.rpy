@@ -98,13 +98,15 @@ label saki_sc1:
 
     stop music fadeout 2.0 
 
+    $ saki_name = "???"
+
     Saki "Excuse me..."
 
     #"Says a timid voice behind me."
 
     Saki "Are you lost?"
 
-    show saki basic_smile
+    show saki basic_smile2
     with dissolve
 
     play music carefree_days volume 0.7 fadein 2.0
@@ -113,7 +115,7 @@ label saki_sc1:
 
     Hisao "Um... I guess I am. I'm new here."
 
-    show saki basic_smile2
+    show saki basic_smile
     with dissolve
 
     Saki "What are you looking for?" 
@@ -153,10 +155,13 @@ label saki_sc1:
 
     "They're filled with an eagerness and intensity as they fly over the paper, practically twinkling as the gears in her brain turn."
 
-    show saki basic_smile2
+    show saki slight_smile_closed
     with dissolve
 
     Saki "Well, you can probably find most of this in one of the art rooms."
+
+    show saki slight_smile
+    with dissolve
 
     "She fixes that gaze on me and hands me the list back. It's said lightly, but that look of amusement hasn't left her eyes yet. Strangely, I find it disarming."
 
@@ -227,7 +232,7 @@ label saki_sc1:
     show saki slight_smile_closed
     with dissolve
 
-    Saki "Pleased to meet you, and thank you."  
+    Saki "Pleased to meet you, and thank you."
 
     #"She says as she steps through, with me following closely behind."
 

@@ -20,6 +20,11 @@ transform twoleft:
         xpos 300
         yalign 1.0
         ypos 1.0
+
+transform twoleftemi:
+        xpos 650
+        yalign 1.0
+        ypos 1.0
     
 transform tworight:
         yalign 1.0

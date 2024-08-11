@@ -394,7 +394,7 @@ label saki_sc4:
 
     "After a few seconds we make our way through a particularly stubborn knot of people and Saki moves away from me... although not quite as far away as she was before."
 
-    scene saki_stage
+    scene school_stage
     with dissolve
 
     "Then we come into view of the stage and all that is forgotten."
@@ -700,7 +700,7 @@ label saki_sc4:
 
     "When Saki lowers her violin and bows, an enthusiastic round of applause starts through the crowd, and I'm gladly swept up in it."
 
-    scene saki_stage
+    scene school_stage
     with dissolve 
 
     "No matter what your taste in music, anyone who heard that would have to admit it was quite a show."

@@ -15,7 +15,6 @@ label saki_sc5:
 
     scene school_dormhisao
     
-
     "The cold shock that went through me as my bare feet hit the floor made my body scream at the injustice of it all."
 
     scene school_dormhallground

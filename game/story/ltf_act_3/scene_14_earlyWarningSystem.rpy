@@ -1,4 +1,9 @@
 label saki_sc14:
+    
+    show school_scienceroom
+    with dissolve
+
+    play music the_student_council fadein 2.0
 
     "Ah, the lunch bell."
 
@@ -56,7 +61,7 @@ label saki_sc14:
 
     "Instead of moving forward at a steady pace, we take one giant step then choose to stay in place, either by design or accident."
 
-    "It feels like after we both test the waters, and decide that the temperature is fine, we both decide not to go swimming after all...only to walk a few paces away, turn around, and dive in headfirst."
+    "It feels like after we both test the waters, and decide that the temperature is fine, we both decide not to go swimming after all... only to walk a few paces away, turn around, and dive in headfirst."
 
     "We kissed, I asked her out on a date, we got our usual ration from Chisato, and we went on our way."
 
@@ -68,9 +73,12 @@ label saki_sc14:
 
     "In those moments though, everything seemed okay."
 
+    show school_hallway3
+    with dissolve
+
     "It didn't feel like we were dancing around the subject, or even a subject to dance around."
 
-    "I wince."
+    # "I wince."
 
     "That's not a direction I want to take right now."
 
@@ -78,7 +86,7 @@ label saki_sc14:
 
     "I skipped breakfast this morning, so I guess my body knew which way it wanted to go."
 
-    Hisao "Hey, Hisao!"
+    Emi "Hey, Hisao!"
 
     "I hear a familiar voice call out to me."
 
@@ -86,23 +94,48 @@ label saki_sc14:
 
     "I turn and smile as the source comes bounding up to me."
 
+    stop music fadeout 1
+
+    show emi basic_closedgrin
+    with dissolve
+
+    play music hokabi fadein 1.5
+
     Hisao "Heya Emi. What's up?"
 
-    Hisao "Nothing much. What are you doing for lunch today?"
+    show emi basic_grin
+    with dissolve
+
+    Emi "Nothing much."
+
+    show emi excited_happy_close
+    with vpunch
+    
+    Emi "What are you doing for lunch today?"
 
     "She asks innocently, clasping her hands behind her back to lean forward, then turn her face up towards me with a beaming grin."
 
+    show emi excited_proud_close
+    with dissolve
+
     "I'm so not buying it."
 
-    Hisao "I was just going to go to the cafeteria...why?"
+    Hisao "I was just going to go to the cafeteria... why?"
 
-    Hisao "I made some onigiri for the track team this morning, but there were a few no-shows,"
+    show emi basic_annoyed_close
+    with dissolve
 
-    "She says, pouting in disapproval."
+    Emi "I made some onigiri for the track team this morning, but there were a few no-shows."
 
-    Hisao "I have a few extras. Want to have lunch on the roof again?"
+    show emi excited_smile_close
+    with dissolve
+
+    Emi "I have a few extras. Want to have lunch on the roof again?"
 
     "The last few weeks with Chisato, Saki, and Noriko have honed my sensitivity to red flags a thousand fold."
+
+    show emi excited_proud_close
+    with dissolve
 
     "Right now, there's an air raid siren spooling up between my ears."
 
@@ -110,15 +143,27 @@ label saki_sc14:
 
     Hisao "Sure, why not?"
 
-    Hisao "Yay!"
+    show emi excited_laugh_close
+    with vpunch
 
-    "Emi exclaims."
+    Emi "Yay!"
 
-    Hisao "Rin should already be waiting for us."
+    show emi basic_happy
+    with dissolve
+
+    Emi "Rin should already be waiting for us."
 
     Hisao "Alright, lead the way."
 
+    scene school_staircase1
+    with dissolve
+
     "Emi does just that, the two of us weaving our way through the thinning crowd of students to the stairwell that leads to the roof."
+
+    scene school_roof
+    with dissolve
+
+    play sound door_creak volume 0.5
 
     "After a quick climb, the creak of the metal door grants us access and I feel the familiar gravel crunching under my feet."
 
@@ -126,11 +171,20 @@ label saki_sc14:
 
     "Rin is standing by the fence, staring wistfully down at the main courtyard of the school."
 
-    Hisao "Rin!"
+    show emi basic_happy
+    with dissolve
+
+    Emi "Rin!"
 
     "Emi admonishes, as soon as her eyes adjust to the sunlight."
 
-    Hisao "Be careful! Someone could see you and then they'd figure out we were up here!"
+    show emi basic_happy at twoleftemi
+    with easeinright
+
+    show rin basic_deadpan at tworight
+    with dissolve
+
+    Rin "Be careful! Someone could see you and then they'd figure out we were up here!"
 
     "The red-haired girl turns towards us, a mild surprise in her green eyes, as if this thought never occurred to her before."
 
@@ -138,93 +192,82 @@ label saki_sc14:
 
     Hisao "We're not exactly allowed to be up here, are we?"
 
-    "I ask."
+    show emi excited_proud_close
+    with dissolve
 
-    "Emi, caught red handed, tries to brush it off."
-
-    Hisao "Only if we get caught."
-
-    "I shake my head."
+    Emi "Only if we get caught."
 
     "As if to appease me, a foil wrapped package seems to magically appear in my hands."
 
+    hide rin 
+
+    show saki basic_smile2_close at tworight
+    with dissolve
+
+    # show rin basic_awayabsent
+    # with dissolve
+
     "It takes a few moments for us to sit down and get situated, before all of us begin to eat."
 
-    Hisao "Wow, Emi, this is really good,"
+    Hisao "Wow, Emi, this is really good."
 
-    "I say, my mouth full."
-
-    Hisao "Aw, you don't have to say that. They're only rice balls."
+    Emi "Aw, you don't have to say that. They're only rice balls."
 
     Hisao "No, I mean it. I haven't eaten today and this really hits the spot."
 
-    Hisao "Well, you can thank the few members of the track team that didn't show up to practice this morning,"
+    Emi "Well, you can thank the few members of the track team that didn't show up to practice this morning. Just because the track meet is over doesn't mean we can slack off, you know."
 
-    "She says."
-
-    Hisao "Just because the track meet is over doesn't mean we can slack off, you know."
-
-    "I feel a pang of guilt."
-
-    "I remember Emi mentioning something about a track meet, but it never occurred to me to try and go to it."
+    "I feel a pang of guilt. I remember Emi mentioning something about a track meet, but it never occurred to me to try and go to it."
 
     "She doesn't seem perturbed by my not being there though, so I might as well ask her about it."
 
     Hisao "How did it go?"
 
-    Hisao "It went great!"
+    Emi "It went great!"
 
-    "Emi answers, with the enthusiasm of someone who was waiting for a specific question to be asked."
+    "Emi answers with the enthusiasm of someone who was waiting for a specific question to be asked."
 
-    Hisao "I'm still the fastest thing with no legs around!"
+    Emi "I'm still the fastest thing with no legs around!"
 
-    Hisao "But you lost one of the events,"
+    Rin "But you lost one of the events."
 
-    "Rin deadpans around a mouthful of rice."
-
-    Hisao "It was only one race!"
-
-    "Emi objects."
-
-    Hisao "I won everything else, but the eight hundred meter!"
+    Emi "It was only one race! I won everything else, but the eight hundred meter!"
 
     Hisao "Who won that one?"
 
-    "I ask, pretty confident I already know the answer to that one."
-
-    Hisao "Miura,"
+    Emi "Miura."
 
     "She admits under her breath with a growl."
 
-    "I try not to laugh."
+    # "I try not to laugh."
 
-    "Seems Saki was right about that one after all."
+    # "Seems Saki was right about that one after all."
 
     "Emi catches the glint in my eye though, and turns on me."
 
-    Hisao "I blame you for that, you know."
+    Emi "I blame you for that, you know."
 
     Hisao "Me? How is that my fault?"
 
-    Hisao "Well maybe I'd have done better if my running partner didn't ditch me in the mornings to go relax in the pool,"
+    Emi "Well maybe I'd have done better if my running partner didn't ditch me in the mornings to go relax in the pool."
 
     "Emi says indignantly, crossing her arms and sticking her nose up in the air."
 
-    "Oh hell."
+    # "Oh hell."
 
     "I can't tell if she's serious or not."
 
-    "I open my mouth to start to say something, then close it, then open it again, having no idea how to respond."
+    # "I open my mouth to start to say something, then close it, then open it again, having no idea how to respond."
 
     "Emi, seemingly having had her fill of fun at my expense, cackles evilly."
 
-    Hisao "I'm joking, I'm joking! Don't worry about it too much. I mean, yeah, I'm a bit sad that you aren't running with me in the mornings, but hey, as long as you get some exercise, that's good!"
+    Emi "I'm joking, I'm joking! Don't worry about it too much. I mean, yeah, I'm a bit sad that you aren't running with me in the mornings, but hey, as long as you get some exercise, that's good!"
 
     "I relent a bit and lean further back against the wall."
 
     Hisao "I think the swimming's really starting to help me. I have more energy than I used to."
 
-    Hisao "You look healthier, too,"
+    Emi "You look healthier, too!"
 
     "Emi notices, cocking her head to the side to study me."
 
@@ -234,95 +277,81 @@ label saki_sc14:
 
     Hisao "I think most of that is just getting my color back after being in the hospital so long."
 
-    Hisao "How can you lose your color? You'll always be at least one color, right?"
+    Rin "How can you lose your color? You'll always be at least one color, right?"
 
-    "Rin plainly states."
+    Rin "Unless you're like, plaid or polka dotted. Or have a lot of freckles."
 
-    Hisao "Unless you're like, plaid or polka dotted. Or have a lot of freckles."
+    Emi "It's just an expression, Rin."
 
-    Hisao "It's just an expression, Rin,"
-
-    "Emi says."
-
-    Hisao "Expressions have color too. Like seeing red."
+    Rin "Expressions have color too. Like seeing red."
 
     "I decide to ignore the banter between the two of them and go back to eating my rice."
 
     "As such, I'm unprepared when Emi blurts out her next question."
 
-    Hisao "So Hisao, what's it like no longer being single?"
+    Emi "So Hisao, what's it like no longer being single?"
 
     "I choke on the bite I'm currently taking, my face turning red from the embarrassment and the coughing fit that seizes me."
 
-    "It takes me a few seconds to regain my composure."
-
-    "It took a while getting here, but I gather that this is the real reason she invited me up."
+    "It takes me a few seconds to regain my composure. It took a while getting here, but I gather that this is the real reason she invited me up."
 
     Hisao "How did you find out about that?"
 
     "I ask, taking a sip of my drink to buy some time."
 
-    Hisao "I may have overheard Chisato and Saki chatting in the back of the room. I have a radar for things like that, you know,"
-
-    "Emi says proudly."
+    Emi "I may have overheard Chisato and Saki chatting in the back of the room. I have a radar for things like that, you know!"
 
     Hisao "Didn't your mother tell you it's rude to listen in on other people's conversations?"
 
-    "Emi waves me off with a giggle."
-
-    Hisao "It's a gift, Hisao. It would be a crime to let it go to waste, don't you think?"
+    Emi "It's a gift, Hisao. It would be a crime to let it go to waste, don't you think?"
 
     "I shake my head, but now that Emi smells blood in the water, she's definitely not going to let it go."
 
-    Hisao "Sa-ki E-no-mo-to, hmmm?"
+    Emi "Sa-ki E-no-mo-to, hmmm?"
 
     "She grins, drawing out each syllable with a conspiratorial glint in her eyes."
 
-    Hisao "Not bad, Hisao. Not bad at all."
+    Emi "Not bad, Hisao. Not bad at all."
 
-    Hisao "It's not like that...I think,"
+    Hisao "It's not like that... I think,"
 
     "I say, realizing that was probably not the right thing to say if I wanted to get away from Emi's line of questioning."
 
     Hisao "We're going on a date this weekend when her leg gets a little better."
 
-    Hisao "Where are two sneaking off to?"
+    Emi "Where are two sneaking off to?"
 
     Hisao "Oh no. I'm not going to tell you where to set up camp. Hone your talents on your own time, not mine."
 
-    Hisao "Hmph! How dare you,"
+    Emi "Hmph! How dare you!"
 
     "Emi says in mock outrage, but her tone quickly switches to one of concern."
 
-    Hisao "She's going to be okay, right? Her leg and all?"
+    Emi "Anyway, she's going to be okay, right? Her leg and all?"
 
-    "I start to answer, then stop."
+    "I start to answer, then stop. It occurs to me that Emi might not know about Saki's condition, so for all I know, the only thing she would be concerned about is Saki's leg."
 
-    "It occurs to me that Emi might not know about Saki's condition, so for all I know, the only thing she would be concerned about is Saki's leg."
+    Hisao "She should be."
 
-    Hisao "She should be,"
-
-    "I answer carefully."
+    # "I answer carefully."
 
     Hisao "She's swimming again in the mornings, and she told me she'll be good as new in another day or two."
 
     "After seeing how hard she's trying the last few days, I silently wonder if she isn't pushing herself a little too hard."
 
-    "Rin chimes in."
-
-    Hisao "That's good then, isn't it?"
+    Rin "That's good then, isn't it?"
 
     "I nod."
 
-    Hisao "Mr. Nomiya said she was no longer in the art club."
+    Rin "Mr. Nomiya said she was no longer in the art club."
 
-    "My eyebrows raise at that."
+    # "My eyebrows raise at that."
 
     Hisao "He did? What exactly did he say?"
 
     "Rin shrugs in a very Rin-like fashion."
 
-    Hisao "Just that. Someone asked why she wasn't there and that's all he said."
+    Rin "Just that. Someone asked why she wasn't there and that's all he said."
 
     "Well, that's a relief I suppose."
 
@@ -330,79 +359,65 @@ label saki_sc14:
 
     "At the very least, Nomiya seems to have calmed down about it, or at least is showing a bit more professionalism than he did when talking to Saki herself."
 
-    "I also notice that Rin said someone asked about Saki – not her."
+    "I also notice that Rin said someone asked about Saki - not her."
 
     "Maybe she's indifferent to the situation, especially if she's focused on that art exhibition that Saki mentioned."
 
     Hisao "That's good. I was with her when she talked to the teacher and it didn't, uh, go too well."
 
-    "I admit."
+    Emi "I don't think her dad's going to like that too much either."
 
-    Hisao "I don't think her dad's going to like that too much either,"
+    # "Emi says, her voice worried."
 
-    "Emi says, her voice worried."
+    # "Wait, what did she just say?"
 
-    "Wait, what did she just say?"
+    "That's pretty much the exact same thing Nomiya said too."
 
-    "That's pretty much the exact same thing Nomiya said."
-
-    "I frown."
+    # "I frown."
 
     "Did something happen with her and her father before I started coming to school? And how would Emi, someone who isn't in art or band and doesn't have much social overlap with Saki, know about it?"
 
     Hisao "Her father? What makes you say that?"
 
-    Hisao "You don't know who Saki's father is?"
+    Emi "You don't know who Saki's father is?"
 
-    "Emi asks me, her voice surprised."
+    # "Emi asks me, her voice surprised."
 
     "I'm taken aback at this for a second."
 
     Hisao "Should I?"
 
-    Hisao "Oh right, I forgot, you weren't here then,"
+    Emi "Oh right, I forgot, you weren't here then."
 
     "She says, lightly snapping her fingers as if she just remembered something important."
 
-    "She lowers her voice a bit, as if she's sharing some secret information she doesn't want anyone else but us to hear."
+    "She lowers her voice a bit, as if she's sharing some secret information she doesn't want anyone else but us to hear. Not that there's anyone else within earshot."
 
-    "Not that there's anyone else within earshot."
-
-    Hisao "He's some bigshot from Osaka. I think he owns a resort chain or something."
+    Emi "He's some bigshot from Osaka. I think he owns a resort chain or something."
 
     "Of all the things that pop into my mind when she says that, the one that comes immediately to me is how that explains the credit card and the amount of money she's able to put on it."
 
-    Hisao "You sound like you've met him,"
+    Hisao "You sound like you've met him."
 
-    "I say."
+    Emi "Well, not really. I haven't met him met him."
 
-    Hisao "Well, not really. I haven't met him met him."
+    Hisao "Really? How?"
 
-    Hisao "Really?"
+    Emi "Oh man, it was horrible. Saki's father came to the school, um, when was it? The first or second week of our first year, Rin?"
 
-    "I ask, curious."
+    Rin "Someone in a suit showed up at the art club the second week."
 
-    Hisao "How?"
+    Emi "Right, so it was the second week of classes, I guess he wanted to see the place and the teachers too."
 
-    Hisao "Oh man, it was horrible. Saki's father came to the school, um, when was it? The first or second week of our first year, Rin?"
+    Hisao "That doesn't seem like a big deal. My parents met a few people here when they dropped me off and helped me get settled in my dorm room. I mean, I can see why it's a bit embarrassing, but still... "
 
-    "Rin shrugs again."
+    Emi "No, you don't get it, I mean he literally wanted to see the place and the teachers."
 
-    Hisao "Someone in a suit showed up at the art club the second week."
+    Emi "He followed her around for a full day, and made sure to speak to every teacher before their class started. Saki was trying to be polite, but every time her father turned her back on her she either looked like she wanted to kill him or just curl up into a ball."
 
-    Hisao "Right, so it was the second week of classes,"
+    # Emi "It was really embarrassing for her." 
 
-    "Emi continues, bowling right over Rin."
-
-    Hisao "I guess he wanted to see the place and the teachers too."
-
-    Hisao "That doesn't seem like a big deal. My parents met a few people here when they dropped me off and helped me get settled in my dorm room. I mean, I can see why it's a bit embarrassing, but still..."
-
-    Hisao "No, you don't get it,"
-
-    "Emi continues, gesturing with her hands to make sure I understand just how important what she's trying to tell me is."
-
-    Hisao "I mean he literally wanted to see the place and the teachers. He followed her around for a full day, and made sure to speak to every teacher before their class started. Saki was trying to be polite, but every time her father turned her back on her she either looked like she wanted to kill him or just curl up into a ball. It was really embarrassing for her. He wasn't rude or anything, but he had this, like, attitude around him. Like he had to make sure everything was good enough. I don't think I saw him smile once the entire time, you know? That type of guy."
+    Emi "He wasn't rude or anything, but he had this, like, attitude around him. Like he had to make sure everything was good enough. I don't think I saw him smile once the entire time, you know? That type of guy."
 
     Hisao "I see."
 
@@ -412,21 +427,21 @@ label saki_sc14:
 
     "Every time I bring up her parents, Saki tends to shut me down pretty quick."
 
-    "Not to mention the whole conversation she had with Nomiya and the subtext it implied."
+    # "Not to mention the whole conversation she had with Nomiya and the subtext it implied."
+
+    "Not to mention the whole conversation she had with Nomiya."
 
     "If that's what her father is like, then that might explain at least part of the reason."
 
-    "'No' is not a word that my parents hear very often."
+    "{i}'No' is not a word that my parents hear very often.{/i}"
 
-    Hisao "I wonder if it's always been that way,"
+    Hisao "I wonder if it's always been that way."
 
     "I whisper to myself, forgetting for a moment that I have company."
 
-    Hisao "I don't know,"
+    Emi "I don't know."
 
-    "Emi says."
-
-    Hisao "I mean, it's not like we talk a lot, or that any of us really go out of our way to talk about our families, but I can't remember Saki ever talking about her family really."
+    Emi "I mean, it's not like we talk a lot, or that any of us really go out of our way to talk about our families, but I can't remember Saki ever talking about her family really."
 
     "There's something kind of sad about that, and telling."
 
@@ -436,13 +451,13 @@ label saki_sc14:
 
     "I disdainfully look down at the onigiri in my hand, realizing I've only taken a few bites out of it since I sat down."
 
-    Hisao "Aw man,"
+    # Hisao "Aw man."
 
-    "I groan."
+    # "I groan."
 
-    Hisao "Better eat up, Hisao. Don't want that to go to waste!"
+    Emi "Better eat up, Hisao. Don't want that to go to waste!"
 
-    "Emi teases, winking at me."
+    # "Emi teases, winking at me."
 
     "I wolf it down in several large, hasty bites."
 
@@ -580,7 +595,7 @@ label saki_sc14:
 
     "I ask Chisato, turning towards her."
 
-    Hisao "A...what did you call it?"
+    Hisao "A... what did you call it?"
 
     Hisao "A cochlear implant,"
 
@@ -622,7 +637,7 @@ label saki_sc14:
 
     "I must take a bit too long to answer, because Saki elbows me in the ribs playfully."
 
-    Hisao "Unless of course, you want me all to yourself..."
+    Hisao "Unless of course, you want me all to yourself... "
 
     "She teases, giggling."
 
@@ -650,7 +665,7 @@ label saki_sc14:
 
     "Saki's face softens as she relents."
 
-    Hisao "No...you're right."
+    Hisao "No... you're right."
 
     Hisao "What about Noriko?"
 
@@ -718,7 +733,7 @@ label saki_sc14:
 
     "Saki asks."
 
-    Hisao "No, well...maybe. I'm not sure."
+    Hisao "No, well... maybe. I'm not sure."
 
     "Saki laughs."
 
@@ -750,7 +765,7 @@ label saki_sc14:
 
     "Saki says knowingly, starting to make her way to the exit."
 
-    Hisao "Well...there was more,"
+    Hisao "Well... there was more,"
 
     "I elaborate, falling into a slow step beside her to match her pace."
 
@@ -776,7 +791,7 @@ label saki_sc14:
 
     "Saki says, her voice amused."
 
-    Hisao "Speaking of...I wanted to apologize for back there."
+    Hisao "Speaking of... I wanted to apologize for back there."
 
     Hisao "Apologize for what?"
 
@@ -798,7 +813,7 @@ label saki_sc14:
 
     "Saki asks, clearly wanting to change the subject."
 
-    Hisao "Well, uh..."
+    Hisao "Well, uh... "
 
     "I begin, wondering if this is the best time to bring it up, but realizing I've gone too far to back out now."
 
@@ -830,7 +845,7 @@ label saki_sc14:
 
     "Saki says, and neither is she."
 
-    Hisao "My father..."
+    Hisao "My father... "
 
     "She starts to say, and then catches herself."
 
@@ -860,13 +875,13 @@ label saki_sc14:
 
     Hisao "Has he always been like that?"
 
-    Hisao "Yes and no. I mean, it didn't get really bad until..."
+    Hisao "Yes and no. I mean, it didn't get really bad until... "
 
     "Saki starts, but then loses steam."
 
-    "She gives a much deeper sigh and then looks into my eyes with a hint of...pleading?"
+    "She gives a much deeper sigh and then looks into my eyes with a hint of... pleading?"
 
-    Hisao "Look, Hisao...I promise one day, I'll tell you about my father and my family. Just...not right now, okay? When I'm ready. Can we drop it for now? Please?"
+    Hisao "Look, Hisao... I promise one day, I'll tell you about my father and my family. Just... not right now, okay? When I'm ready. Can we drop it for now? Please?"
 
     "I can't say no, seeing how much distress this is causing her."
 
@@ -906,11 +921,11 @@ label saki_sc14:
 
     "I hear a voice say."
 
-    Hisao "Because of the glare I couldn't see if..."
+    Hisao "Because of the glare I couldn't see if... "
 
     "Maeda's voice trails off as we make eye contact."
 
-    Hisao "...there was anyone behind the door."
+    Hisao "... there was anyone behind the door."
 
     "I'm still blinking hard to clear the stars from my eyes when I feel Saki's fingertips dig into my shoulder."
 
@@ -964,7 +979,7 @@ label saki_sc14:
 
     "He looks first at me, then at Saki, then back to me."
 
-    Hisao "You two...?"
+    Hisao "You two... ?"
 
     "He asks, letting the question linger in the air."
 
@@ -1006,7 +1021,7 @@ label saki_sc14:
 
     "With a weary sigh, she brings her hands up to her temples and starts to massage them with her fingertips."
 
-    Hisao "I'm sorry...it's just been a really, really long few days. I shouldn't have snapped like that...but God, he just makes me so angry sometimes, I just want to knock that stupid beret off his head. I mean, who wears one of those to school?"
+    Hisao "I'm sorry... it's just been a really, really long few days. I shouldn't have snapped like that... but God, he just makes me so angry sometimes, I just want to knock that stupid beret off his head. I mean, who wears one of those to school?"
 
     "The only thing I can think to say is something absurd."
 

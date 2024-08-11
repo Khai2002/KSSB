@@ -6,8 +6,9 @@
 define Shizune = Character("Shizune", color="#72ADEE", what_suffix='"', what_prefix='"')
 define Misha = Character("Misha", color="#FF809F", what_suffix='"', what_prefix='"')
 define Hisao = Character("Hisao", color="#629276", what_suffix='"', what_prefix='"')
-define Lilly = Character("Lilly", color="#e8e4b5",  what_suffix='"', what_prefix='"')
+define Lilly = Character("Lilly", color="#f9eaa0",  what_suffix='"', what_prefix='"')
 define Emi = Character("Emi", color="#FF8E7F", what_suffix='"', what_prefix='"')
+define Rin = Character("Rin", color="#b14343", what_suffix='"', what_prefix='"')
 define Meiko = Character("Meiko", color="#9C5051",  what_suffix='"', what_prefix='"')
 define Saki = DynamicCharacter("saki_name", color="#b77029",  what_suffix='"', what_prefix='"')
 define Chi = Character("Chisato", color="#cd4b34",  what_suffix='"', what_prefix='"')
@@ -15,9 +16,9 @@ define other = DynamicCharacter("other_name", color="#69b129",  what_suffix='"',
 define Nori = Character("Noriko", color="#b849ab",  what_suffix='"', what_prefix='"')
 define Saka = DynamicCharacter("saka_name", color="#9339c7",  what_suffix='"', what_prefix='"')
 define Mutou = Character("Mutou", color="#bf7937",  what_suffix='"', what_prefix='"')
-define Nurse = Character("Nurse", color="#f3f3f3",  what_suffix='"', what_prefix='"')
+define Nurse = Character("Nurse", color="#ffffff",  what_suffix='"', what_prefix='"')
 define Mae = Character("Maeda", color="#178a00",  what_suffix='"', what_prefix='"')
-define Nomiya = Character("Nomiya", color="#E1DCD8",  what_suffix='"', what_prefix='"')
+define Nomiya = Character("Nomiya", color="#e0e0e0",  what_suffix='"', what_prefix='"')
 
 define Kyle = Character("Kyle", color="#f3f3f3",  what_suffix='"', what_prefix='"')
 
