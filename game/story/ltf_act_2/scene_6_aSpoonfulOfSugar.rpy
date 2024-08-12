@@ -4,6 +4,8 @@ label saki_sc6:
 
     scene school_dormhisao
     with dissolve
+
+    $ narrator = nvl_narrator
     
     "In some small way, it's comforting I'm not alone in trying to settle in to a new home."
 
@@ -14,6 +16,8 @@ label saki_sc6:
     "True to her word, Saki met me after class today. I had waited by my classroom door and she came wandering up with a plastic bag bulging at the sides."
 
     "I could see there was obviously a bowl inside, but I didn't realize how much other stuff was involved in keeping a simple goldfish."
+
+    nvl clear
 
     "Saki had pulled me aside and very quickly went over all I needed to do, her eyes darting around looking for Mutou or any other staff that may have been close enough to hear."
 
