@@ -14,6 +14,7 @@ label saki_sc5:
     "I hit the snooze button as many times as I could safely do so, then twice more for good measure."
 
     scene school_dormhisao
+    with dissolve
     
     "The cold shock that went through me as my bare feet hit the floor made my body scream at the injustice of it all."
 

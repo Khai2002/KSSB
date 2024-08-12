@@ -29,6 +29,8 @@ label saki_sc6:
 
     "Another small carton holds multicolored fish food. I take it and give it a gentle shake over the mouth of the bowl, causing a few flakes to settle on the surface of the water."
 
+    nvl clear
+
     "He swims up to the surface and greedily goes after one a bit too large, tearing a chunk off and causing it to start to sink."
 
     "He? Come to think of it, I don't know why I automatically assumed the fish was a he."
@@ -38,6 +40,8 @@ label saki_sc6:
     "He stops swimming for a second and seems to stare straight at me, his gills pumping and fins motoring to hover in place."
 
     "His head turns slightly from side to side, his large eyes scrutinizing me."
+
+    nvl clear
 
     "Eh, I have a 50/50 chance of getting it right. It's not like many people are going to know about this fish. And it's not like those who do will know enough to tell the difference, either."
 
@@ -51,10 +55,12 @@ label saki_sc6:
 
     "Then again, even if it was difficult for her, I doubt she would let it show..."
 
+    nvl clear
+
     "Maybe I should just go to bed early. Go to the library, find a book or two, come back and get a nice hot shower, and read for a while before catching up on sleep."
 
     "Get a fresh start tomorrow."
-
+    
     "Thinking of sleep reminds me of what Mutou said to me earlier today, about Nurse wanting to see me."
 
     "I might as well get it out of the way."
@@ -63,6 +69,8 @@ label saki_sc6:
 
     scene school_nursehall
     with Dissolve(1.0)
+
+    $ narrator = adv_narrator
 
     "I rap my knuckes on the door a few times before opening it a crack."
 

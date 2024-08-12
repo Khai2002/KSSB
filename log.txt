@@ -1,37 +1,37 @@
-2024-08-12 23:35:08 UTC
+2024-08-12 23:43:26 UTC
 Windows-10-10.0.22631
 Ren'Py 8.2.3.24061702
 
-Early init took 0.13s
-Loading error handling took 0.05s
-Loading script took 0.38s
-Loading save slot metadata took 0.13s
+Early init took 0.12s
+Loading error handling took 0.04s
+Loading script took 0.78s
+Loading save slot metadata took 0.12s
 Loading persistent took 0.00s
-Running init code took 0.09s
+Running init code took 0.12s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.09s
+Reloading save slot metadata took 0.07s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\ASUS\\AppData\\Roaming/RenPy/backups\\KSSB':
-Dump and make backups took 0.07s
+Dump and make backups took 0.09s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.09s
+Initial gc took 0.08s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.44s
+Creating interface object took 0.41s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.03s
-Save screen analysis took 0.05s
-Prepare screens took 0.13s
+Save screen analysis took 0.03s
+Prepare screens took 0.16s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.05s
 Running _start took 0.00s
-Interface start took 0.11s
+Interface start took 0.15s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -46,36 +46,36 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 109.52s
-Loading error handling took 0.06s
-Loading script took 0.36s
-Loading save slot metadata took 0.12s
+Early init took 46.62s
+Loading error handling took 0.05s
+Loading script took 0.34s
+Loading save slot metadata took 0.15s
 Loading persistent took 0.00s
-Running init code took 0.08s
+Running init code took 0.07s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.06s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\ASUS\\AppData\\Roaming/RenPy/backups\\KSSB':
-Dump and make backups took 0.09s
+Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.11s
+Initial gc took 0.10s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.37s
+Creating interface object took 0.38s
 Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
 Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.03s
-Prepare screens took 0.16s
+Analyze screens took 0.05s
+Save screen analysis took 0.06s
+Prepare screens took 0.24s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
 Running _start took 0.00s
-Interface start took 0.07s
+Interface start took 0.08s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
