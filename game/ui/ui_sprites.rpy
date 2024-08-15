@@ -634,7 +634,28 @@ image misha sign_confused = "sprites/misha/misha_sign_confused.png"
 image misha sign_smile = "sprites/misha/misha_sign_smile.png"
 image misha sign_sad = "sprites/misha/misha_sign_sad.png"
 
+image misha hips_frown_close = "sprites/misha/close/misha_hips_frown_close.png"
+image misha hips_grin_close = "sprites/misha/close/misha_hips_grin_close.png"
+image misha hips_laugh_close = "sprites/misha/close/misha_hips_laugh_close.png"
+image misha hips_smile_close = "sprites/misha/close/misha_hips_smile_close.png"
+
+image misha cross_frown_close = "sprites/misha/close/misha_cross_frown_close.png"
+image misha cross_grin_close = "sprites/misha/close/misha_cross_grin_close.png"
+image misha cross_laugh_close = "sprites/misha/close/misha_cross_laugh_close.png"
+image misha cross_smile_close = "sprites/misha/close/misha_cross_smile_close.png"
+
+image misha perky_smile_close = "sprites/misha/close/misha_perky_smile_close.png"
+image misha perky_sad_close = "sprites/misha/close/misha_perky_sad_close.png"
+image misha perky_confused_close = "sprites/misha/close/misha_perky_confused_close.png"
+
+image misha sign_confused_close = "sprites/misha/close/misha_sign_confused_close.png"
+image misha sign_smile_close = "sprites/misha/close/misha_sign_smile_close.png"
+image misha sign_sad_close = "sprites/misha/close/misha_sign_sad_close.png"
+
+# Mutou sprites
 
 image mutou irritated = "sprites/muto/muto_irritated.png"
 image mutou normal = "sprites/muto/muto_normal.png"
 image mutou smile = "sprites/muto/muto_smile.png"
+
+image phone = "vfx/mobile-sprite.png"

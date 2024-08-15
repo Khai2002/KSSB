@@ -13,9 +13,15 @@ label saki_sc8:
 
     "At least, until I can get an actual cup of coffee later today."
 
+    show phone
+    with easeinbottom
+
     "I flip open my phone and re-read the text message Saki sent me last night."
 
-    "Meeting by the music room at 8, taking sensei's car into the city."
+    "{i}Meeting by the music room at 8, taking sensei's car into the city.{/i}"
+
+    hide phone
+    with easeoutbottom
 
     "All well and good, except this early and on the weekend, nobody's unlocked the Arts building so I can't go inside even if I wanted to."
 
@@ -28,9 +34,7 @@ label saki_sc8:
     scene misc_sky
     with dissolve
 
-    "I've settled on leaning against the wall, trying to avoid the rays of the sun as it comes up."
-
-    "Summer sure did come early this year."
+    "I've settled on leaning against the wall, trying to avoid the rays of the sun as it comes up. Summer sure did come early this year."
 
     "I pat the pockets of my pants, making sure I've got my wallet and anything else I might need."
 
@@ -38,15 +42,21 @@ label saki_sc8:
 
     "This is the first time I've worn this outfit since my heart attack, and it feels strange to me for a few reasons."
 
+    window hide
+
+    $ narrator = nvl_narrator
+
+    window show
+
     "After the time in the hospital, I've grown a centimeter or two."
 
-    "I've also lost some weight."
-
-    "I had to cinch my belt one notch further just to make sure these pants stayed firmly where they're supposed to be."
+    "I've also lost some weight. I had to cinch my belt one notch further just to make sure these pants stayed firmly where they're supposed to be."
 
     "The rest of the clothing is just as loose, but not uncomfortably so."
 
     "What makes it uncomfortable is the throwback to my old life, and all the uneasiness wearing the outfit is presenting me."
+
+    nvl clear
 
     "I can't remember how many times I wore this look when hanging out with my friends, and the fact it doesn't really fit me in more ways than one is not lost on me."
 
@@ -55,6 +65,12 @@ label saki_sc8:
     "Then again, maybe I should keep the weight off."
 
     "It may be easier to get a new set of casual clothes than it will be to completely replace my school uniforms which are sized to my new waistline."
+
+    window hide
+
+    $ narrator = adv_narrator
+
+    window show
 
     "I'm not left in my own thoughts for long before I hear someone calling my name."
 
@@ -69,7 +85,7 @@ label saki_sc8:
 
     "There's a brief moment when we all get close enough where we scrutinize each others' outfits."
 
-    show saki slight_smile at tworight
+    show saki slight_smile_cas
     with dissolve
 
     "Chisato's dressed fairly conservatively in a knee length skirt made out of a dark brown fabric, and a green jacket zipped up over her torso that matches the color of her eyes."
@@ -96,81 +112,99 @@ label saki_sc8:
 
     "Chisato doesn't give anything away but Saki raises an eyebrow."
 
-    Hisao "...what?"
+    Hisao "... what?"
 
-    "I ask, suddenly self conscious."
+    show saki smug2_cas 
+    with dissolve
 
-    Saki "Not...bad..."
+    Saki "Not... bad... "
+
+    show saki smug_cas
+    with dissolve
 
     "Saki says, drawing out the words in a way that tells me she's still trying to convince herself of what she's saying."
+
+    show saki neutral_cas
+    with dissolve
 
     Saki "Looks a bit warm for this weather though."
 
     Hisao "Give me a break. Clothes shopping wasn't exactly on my list of priorities the last few months."
 
+    show saki slight_smile_cas
+    with dissolve
+
     Saki "I don't know if I'd wear a sweater vest this time of year, but it does match your shirt and pants."
 
     "She replies approvingly."
 
+    show saki slight_smile_cas_close
+    with dissolve
+
     Saki "You should undo that top button though. It will make the whole thing look more casual and you should be able to breathe better too."
+
+    show saki slight_smile_cas
+    with dissolve
 
     Hisao "I wasn't aware you were such a fashion expert."
 
-    "I sigh resignedly, reaching up to wrestle with the stubborn closure."
+    show saki grin_cas
+    with dissolve
 
     Saki "You can't tell?"
 
     "Saki says, and spins around once for all of us to see, her cane looping around her in a lazy circle."
 
-    "Chisato laughs at her antics."
+    # "Chisato laughs at her antics."
 
     Hisao "You'll have to help me pick out some more clothes today, Saki."
 
-    Saki "No problem."
+    show saki smug_cas
+    with dissolve
 
-    "Saki answers, rebalancing herself."
-
-    Saki "We have a pack mule with us today."
+    Saki "No problem. We have a pack mule with us today."
 
     Hisao "Now wait a minute-"
 
-    Saki "Oh look, here comes Mrs. Sakamoto!"
+    show saki happy_cas
+    with dissolve
 
-    "Saki says, effectively cutting me off."
+    Saki "Oh look, here comes Mrs. Sakamoto!"
 
     "I turn to look and see the music teacher walking towards us, wearing a long white flowing skirt that comes to her ankles, and a floral patterned blouse with short sleeves."
 
-    "She's not alone."
+    # "She's not alone."
 
-    Hisao "Is that Noriko?"
+    Hisao "Is that Noriko as well?"
 
-    "I ask, squinting."
+    # "I ask, squinting."
 
     Chi "Looks like it."
 
-    "Chisato says."
-
     Hisao "I didn't think she was going to come today."
+
+    show saki hmm_cas
+    with dissolve
 
     Saki "Me neither."
 
-    "Saki muses"
+    show basic_smile_cas 
+    with dissolve
 
-    Saki "but oh my god, that dress..."
+    Saki "but oh my god, that dress... "
 
     "I don't know much about fashion, but Noriko does look stunning."
 
     "Her outfit is probably the simplest out of all of us - a plain blue sundress, but a look that seems to fit her very, very well."
 
+    show saki determined_cas
+    with dissolve
+
     Saki "Damn, I have to find out where she got that, and if they have it in yellow."
 
-    "Saki mumbles in a fierce jealousy."
+    Saka "Hello you three! Goodness, I didn't think we would be the last ones here."
 
-    Saka "Hello you three!"
-
-    "Mrs. Sakamoto says cheerfully when she reaches us."
-
-    Saka "Goodness, I didn't think we would be the last ones here."
+    # "Mrs. Sakamoto says cheerfully when she reaches us."
 
     Chi "Hisao was the first."
 
@@ -180,69 +214,44 @@ label saki_sc8:
 
     Chi "You should have known better. Women never show up on time, and there's four of us."
 
-    "Chisato answers."
-
-    "Saki punches her in the arm, Noriko giggles, but Mrs."
-
-    "Sakamoto lets out a full volume laugh."
+    "Saki punches her in the arm, Noriko giggles, but Mrs. Sakamoto lets out a full volume laugh."
 
     Saka "So, you must be Hisao Nakai. Pleased to make your acquaintance. Miss Enomoto told me she wanted to bring a friend along today."
 
-    "She says with a gracious bow."
+    "She says with a gracious bow. I return the gesture, bowing deeper as a sign of respect."
 
-    "I return the gesture, bowing deeper as a sign of respect."
-
-    Hisao "Mrs. Sakamoto, you're the music teacher, correct? I remember seeing you on stage at the festival, and Saki and Chisato have told me about you."
+    Hisao "Mrs. Sakamoto, are you the music teacher? I remember seeing you on stage at the festival, and Saki and Chisato have told me about you."
 
     Saka "Only good things, I hope."
 
-    "She jokes."
-
-    Nori "So...what exactly are we doing today? Chisato was a bit...vague..."
-
-    "Noriko asks in her quiet voice."
+    Nori "So... what exactly are we doing today? Chisato was a bit... vague."
 
     "From what I've seen of her during and since the festival, she seems like a fairly shy person."
 
     "I've seen her interacting a few times with Saki and Chisato, but it seems she goes out of her way to not be noticed."
 
-    "Glancing at her dress again, it's a bit of a paradox."
+    "Glancing at her dress again, it's a bit of a paradox. I wouldn't expect this girl to be wearing the type of outfit."
 
-    "I wouldn't expect this girl to be wearing the type of outfit."
+    # "Saki starts hesitantly, looking at Mrs.Sakamoto for confirmation."
 
-    Saki "Well..."
+    Saki "Well... We were going to the studio first to check it out, then go to the shopping district, right?"
 
-    "Saki starts hesitantly, looking at Mrs."
+    Saka "It's up to you. We have the car for most of the day today, as long as we get back at a decent time."
 
-    "Sakamoto for confirmation."
-
-    Saki "We were going to the studio first to check it out, then go to the shopping district, right?"
-
-    Saka "It's up to you."
-
-    "Mrs."
-
-    "Sakamoto says."
-
-    Saka "We have the car for most of the day today, as long as we get back at a decent time."
-
-    Chi "Alright then!"
-
-    "Chisato cheers."
-
-    Chi "I've been looking forward to seeing this place! You said they had an actual piano and not a keyboard?"
+    Chi "Alright then! I've been looking forward to seeing this place! You said they had an actual piano and not a keyboard?"
 
     Saka "That's right."
 
-    "The teacher answers, starting to walk down the pathway towards the parking lot."
+    "The teacher answers, starting to walk down the pathway towards the parking lot. The rest of us unconsciously follow."
 
-    "The rest of us unconsciously follow."
+    show school_backexit
+    with dissolve
 
     Saka "It's not very large, but the owner likes to make sure he has the best equipment he can afford, including a real piano."
 
     Chi "Awesome!"
 
-    "Saki pauses in mid stride, looking confused."
+    # "Saki pauses in mid stride, looking confused."
 
     Saki "Should we go back and grab my violin, then?"
 
@@ -252,39 +261,34 @@ label saki_sc8:
 
     Chi "Just send Hisao to grab it."
 
-    "Chisato giggles."
-
     Hisao "No thank you. I don't want to have to explain why I would be leaving the female dorm this early in the morning if anyone sees me."
 
-    "I say, drawing a laugh from everyone."
+    # "I say, drawing a laugh from everyone."
 
-    "In a few short moments we've reached the car, a sedan that looks to be as old as I am."
+    scene school_parkinglot
+    with dissolve
 
-    "Despite its apparent age, it's clean and very well upkept."
+    "In a few short moments we've reached the car, a sedan that looks to be as old as I am. Despite its apparent age, it's clean and very well upkept."
 
     "Chisato speeds up to reach the passenger side before the rest of us."
 
     Chi "Shotgun!"
 
-    "Saki rolls her eyes."
+    # "Saki rolls her eyes."
 
     Saki "Making the girl with the cane sit in the back? Shame on you."
 
     Chi "I'll move the seat up for you."
 
-    "Chisato consoles, completely unconcerned."
+    # "Chisato consoles, completely unconcerned."
 
     "I hold open one of the rear doors, and Noriko jumps in, tucking her dress underneath her as she sits down."
 
-    "She thanks me as I check to make sure her legs are clear before closing the door."
+    "She thanks me as I check to make sure her legs are clear before closing the door. Saki moves with me to the other side."
 
-    "Saki moves with me to the other side."
+    Saki "Go ahead. Sit in the middle."
 
-    Saki "Go ahead."
-
-    "Saki motions when I hold open the other door for her."
-
-    Saki "Sit in the middle."
+    # "Saki motions when I hold open the other door for her."
 
     Hisao "You sure?"
 
@@ -298,17 +302,30 @@ label saki_sc8:
 
     "She places her cane on the seat next to us, its length resting between the driver seat and center console."
 
-    "Mrs."
+    "Mrs. Sakamoto closes the door before getting into the drivers seat and starting the car."
 
-    "Sakamoto closes the door before getting into the drivers seat and starting the car."
+    show school_road
+    with dissolve
 
     "All three of us in the back squirm to find comfortable positions as she backs out of the parking space."
 
+    show suburb_shanghaiext
+    with dissolve
+
     "The area around us is filled with knickknack shops, a teahouse, a cafe, and a brightly colored karaoke establishment."
+
+    show suburb_roadcenter
+    with dissolve
 
     "We're just off from the main downtown district, close enough to still feel like a part of it but far enough away to escape its bustle and relax a bit."
 
+    show city_street3
+    with dissolve
+
     "The ride from Yamaku was a pleasant one, and it sure did feel nice to be in a car instead of having to take the bus with all the inconveniences that come with it."
+
+    scene city_street4
+    with dissolve
 
     "Off to one side of the little strip mall we find ourselves in is a plain storefront with the word 'Takamura Recording' on a small, unassuming sign."
 
@@ -320,9 +337,6 @@ label saki_sc8:
 
     "It took a bit longer for the rest of us to extract ourselves, brushing our clothes straight and making sure we had everything with us."
 
-    scene city_street4
-    with dissolve
-
     Saki "Wait up!"
 
     "Saki shouts ahead to Chisato, who's practically bouncing ahead of us."
@@ -330,6 +344,9 @@ label saki_sc8:
     "She turns around, her skirt swirling around her legs and shouts back."
 
     Chi "No, you hurry up!"
+
+    show saki sad_annoyed_cas
+    with dissolve
 
     Saki "I swear, I'm going to kill her."
 
@@ -339,13 +356,9 @@ label saki_sc8:
 
     Saka "Nobody's going to hurry up because nobody's going to get in until I open the door, Miss Souma!"
 
-    "Mrs. Sakamoto roars out from behind us."
+    "Mrs. Sakamoto roars out from behind us. The sheer volume of her declaration makes me turn my head in wonder that it came from such a small frame."
 
-    "The sheer volume of her declaration makes me turn my head in wonder that it came from such a small frame."
-
-    "Noriko's walking alongside her, looking a little embarrassed for all our sakes."
-
-    "She glances around to see if anyone heard that exchange."
+    "Noriko's walking alongside her, looking a little embarrassed for all our sakes. She glances around to see if anyone heard that exchange."
 
     "Chisato comes up short of the door and turns back, nearly standing at attention as she waits for the rest of our troupe to catch up."
 
@@ -366,7 +379,7 @@ label saki_sc8:
     scene music_studio_dark
     with dissolve
 
-    "We step into a dark room, the air around us cool and smelling of... what is that? Old books, teak oil, the acrid aroma of electronics...I pick it all up in that first breath."
+    "We step into a dark room, the air around us cool and smelling of...  what is that? Old books, teak oil, the acrid aroma of electronics... I pick it all up in that first breath."
 
     "My brow furrows."
 
@@ -421,7 +434,7 @@ label saki_sc8:
 
     "Mrs Sakamoto says behind us, having returned the keys to her purse and closed the door."
 
-    Chi "How...how did you...did he...I mean..."
+    Chi "How... how did you... did he... I mean... "
 
     "Chisato splutters out, still unable to form words."
 
@@ -463,7 +476,7 @@ label saki_sc8:
 
     Saka "After all, you're going to be recording on it, aren't you?"
 
-    Chi "Yeah, but... I thought it would be a standard keyboard or something like the piano we have in the band room, just not this."
+    Chi "Yeah, but...  I thought it would be a standard keyboard or something like the piano we have in the band room, just not this."
 
     Saka "Oh, just sit down and shut up."
 
@@ -473,7 +486,7 @@ label saki_sc8:
 
     Saka "I'm sorry, but Takamura doesn't usually record many string instruments, so you'll have to use your own violin."
 
-    Saki "What... He doesn't have a Stradivarius hidden in a cabinet somewhere?"
+    Saki "What...  He doesn't have a Stradivarius hidden in a cabinet somewhere?"
 
     "The piano plays a few shy, tentative notes as Chisato's fingers brush over the keys."
 
@@ -497,7 +510,7 @@ label saki_sc8:
 
     "She sits back, stunned."
 
-    Chi "I never imagined it would sound so good..."
+    Chi "I never imagined it would sound so good... "
 
     Saka "An instrument is nothing without the artist to play it"
 
@@ -523,13 +536,13 @@ label saki_sc8:
 
     "Noriko asks, still looking around the room."
 
-    Saki "Well, it's..."
+    Saki "Well, it's... "
 
     "Saki starts, before Chisato can answer."
 
     "But her enthusiasm falters as the same embarrassed look crosses her face as she gave me the first day at the pool."
 
-    Saki "...I guess, an album?"
+    Saki "... I guess, an album?"
 
     "She finally offers."
 
@@ -551,7 +564,7 @@ label saki_sc8:
 
     "Chisato answers, her smile disappearing into a hint of sadness."
 
-    Chi "None of us really know where we're going to be in a year or two...so the only time we know for sure we can do this is now."
+    Chi "None of us really know where we're going to be in a year or two... so the only time we know for sure we can do this is now."
 
     Hisao "Because we're third years?"
 
@@ -671,7 +684,7 @@ label saki_sc8:
 
     "Saki says, either completely oblivious to or fully aware of what she just said and choosing not to care."
 
-    Hisao "I...I can't even begin to describe what's wrong with that sentence."
+    Hisao "I... I can't even begin to describe what's wrong with that sentence."
 
     "I say, shaking my head."
 
@@ -783,7 +796,7 @@ label saki_sc8:
 
     Saka "You're fine. I told you, you need to stop underselling yourselves. You have talent that you're both good at, and you should take it as far as you can, for as long as you can."
 
-    "That's...an interesting choice of words."
+    "That's... an interesting choice of words."
 
     "I can't say why, exactly, because it sounds like the type of thing that you would hear in any motivational speech."
 
@@ -803,7 +816,7 @@ label saki_sc8:
 
     "I inquire."
 
-    Saka "Oh no. Let's see... my husband and I moved here, when was it? A little over ten years ago."
+    Saka "Oh no. Let's see...  my husband and I moved here, when was it? A little over ten years ago."
 
     "Her expression softens as she relives the memory."
 
@@ -861,7 +874,7 @@ label saki_sc8:
 
     "The light in her eyes dims ever so slightly before answering."
 
-    Saka "I wouldn't know. Somehow in all the stress of daily life, and trying to get stable, my husband and I just never got around to having children when we were younger. We always talked about it, but the timing was never right. By the time things settled down enough and we moved here, well...it was a little too late."
+    Saka "I wouldn't know. Somehow in all the stress of daily life, and trying to get stable, my husband and I just never got around to having children when we were younger. We always talked about it, but the timing was never right. By the time things settled down enough and we moved here, well... it was a little too late."
 
     "She finishes, the wistful look on her face changing to encompass the memories of more years than I've been alive."
 
@@ -905,7 +918,7 @@ label saki_sc8:
 
     Saki "Did you have a better idea about what type of swimsuit you wanted to get? There's a few stores where we're going and they sell all kinds of different types."
 
-    Hisao "No... not really."
+    Hisao "No...  not really."
 
     "I say with difficulty, bringing my cup of coffee up to my lips and taking another sip."
 
@@ -941,7 +954,7 @@ label saki_sc8:
 
     "Chisato says, lowering her voice, turning her attention to Noriko and myself."
 
-    Chi "We went to the beach or the waterpark last year, what...five times?"
+    Chi "We went to the beach or the waterpark last year, what... five times?"
 
     Saki "Six."
 
@@ -951,7 +964,7 @@ label saki_sc8:
 
     Saki "Completely untrue. They weren't new, I just packed enough where I didn't have to wear one more than once."
 
-    Nori "That's...weird."
+    Nori "That's... weird."
 
     "Noriko says."
 
@@ -973,7 +986,7 @@ label saki_sc8:
 
     "I say with a shrug."
 
-    Hisao "Normal clothes, yeah, but a swimsuit...just hang it on the shower curtain rod and it's ready to go the next day."
+    Hisao "Normal clothes, yeah, but a swimsuit... just hang it on the shower curtain rod and it's ready to go the next day."
 
     Saki "Ugh, boys."
 
@@ -1003,7 +1016,7 @@ label saki_sc8:
 
     Saka "Not too far, just further downtown."
 
-    Chi "Hmmm..."
+    Chi "Hmmm... "
 
     "Chisato hums thoughtfully before tugging on Saki's sleeve."
 
@@ -1025,13 +1038,13 @@ label saki_sc8:
 
     Saka "Oh my, it's been quite a while."
 
-    Saki "Well..."
+    Saki "Well... "
 
     "Saki starts."
 
     "She looks to Chisato again, who nods for her to continue."
 
-    Saki "You already showed us the studio today. We were just going to go shopping for a while before we all went back...we'll be fine on our own. If you want, you can go surprise your husband and go have dinner together."
+    Saki "You already showed us the studio today. We were just going to go shopping for a while before we all went back... we'll be fine on our own. If you want, you can go surprise your husband and go have dinner together."
 
     "This catches both myself and the teacher off guard, although I manage to do a better job of hiding it."
 
@@ -1051,7 +1064,7 @@ label saki_sc8:
 
     "I can tell she's torn between being wanting to go and being the responsible adult."
 
-    Saka "I wouldn't want anything to happen to you..."
+    Saka "I wouldn't want anything to happen to you... "
 
     "She offers feebly."
 
@@ -1065,7 +1078,7 @@ label saki_sc8:
 
     "None of this would help Saki's argument, so I keep my mouth shut."
 
-    Saka "If all of you are absolutely sure..."
+    Saka "If all of you are absolutely sure... "
 
     Saki "It's alright with me."
 
@@ -1179,7 +1192,7 @@ label saki_sc8:
 
     "I sigh."
 
-    Hisao "There was someone that might have been, but... circumstances."
+    Hisao "There was someone that might have been, but...  circumstances."
 
     "I finish a little more bitterly than I intended."
 

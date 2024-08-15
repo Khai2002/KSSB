@@ -5,6 +5,8 @@ label saki_sc3:
     scene school_dormhisao_blurred_ss
     with dissolve
 
+    play music daylight fadein 1.5
+
     "The alarm clock sears through my head with all the subtlety of a speeding train."
 
     "I reflexively flop over, fumbling blindly to smash it, but to no avail."

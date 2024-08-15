@@ -31,6 +31,11 @@ transform tworight:
         xpos 1100
         ypos 1.0
 
+transform tworightsaki:
+        yalign 1.0
+        xpos 950
+        ypos 1.0
+
 transform threeleft:
         xpos 100
         yalign 1.0

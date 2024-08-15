@@ -13,9 +13,7 @@ label saki_sc7:
 
     "The lighting always seems to be perpetually dim, despite the glare of the fluorescent tubing."
 
-    "The floor is made up of tiles which always feel damp."
-
-    "They constantly feel cold against bare feet, until you step on one of the several metal grates spread around and realize how cold the floor really is."
+    "The floor is made up of tiles which always feel damp. They constantly feel cold against bare feet, until you step on one of the several metal grates spread around and realize how cold the floor really is."
 
     "There's also the smell. It's a musty mixture of chlorine, disinfectant, and moisture."
 
@@ -27,13 +25,9 @@ label saki_sc7:
 
     "Nurse and Saki both seemed right about not many people using the pool this time of day."
 
-    "I haven't seen anyone in the men's locker room."
+    "I haven't seen anyone in the men's locker room. The only sound is the loud hum of an exhaust fan somewhere in the ceiling."
 
-    "The only sound is the loud hum of an exhaust fan somewhere in the ceiling."
-
-    "So here I stand, in my standard track outfit."
-
-    "Red shorts that don't even come down to mid thigh, and a white ringer shirt edged with red."
+    "So here I stand, in my standard track outfit. Red shorts that don't even come down to mid thigh, and a white ringer shirt edged with red."
 
     "The last time I wore this, it didn't go so well."
 
