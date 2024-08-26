@@ -1,16 +1,13 @@
 label saki_sc9:
 
+    play music daylight volume 0.5 fadein 1.5
+
     scene icecream_shop
-    show saki slight_smile
-    with dissolve 
+    with dissolve
 
-    Chi "Oh my God."
+    Chi "Oh my God. I've been looking forward to this all week."
 
-    "Chisato says, closing her eyes in appreciation as happiness washes over her face."
-
-    Chi "I've been looking forward to this all week."
-
-    "She hungrily goes back to attacking her chocolate ice cream cone."
+    "Chisato says, closing her eyes in appreciation as happiness washes over her face. She hungrily goes back to attacking her chocolate ice cream cone."
 
     "The other girls and myself share in her enthusiasm as we all enjoy our frozen treats."
 
@@ -22,73 +19,78 @@ label saki_sc9:
 
     Chi "Of course they do, But most of it tastes like cardboard. Nothing sweet, nothing spicy, nothing good."
 
-    "I can't say she's wrong."
-
-    "It would make sense though, given how varied the students at Yamaku are."
+    "I can't say she's wrong. It would make sense though, given how varied the students at Yamaku are."
 
     "You wouldn't want to trigger a condition someone has, so the food has to be tailored so it's safe for nearly everyone."
 
     "When you think about how the food tastes there, it's easy to understand why countries used to go to war over things like salt and pepper."
 
+    show saki tired_cas
+    with dissolve
+
     Saki "Your taste buds must be completely destroyed. That's still as bad as it was the last time you made me try it."
 
     "Chisato had grabbed a few sample spoons and graciously allowed us to try a taste of her ice cream."
 
-    "Noriko simply raised an eyebrow."
+    show saki frown_cas
+    with dissolve
 
-    "Saki took a taste and remained impassive for about two seconds before her face scrunched up in disgust."
+    "Noriko simply raised an eyebrow. Saki took a taste and remained impassive for about two seconds before her face scrunched up in disgust."
 
-    "To me, the flavor wasn't as pronounced as I would have expected and there was definitely a chemical aftertaste...but it wasn't the culinary disaster Saki led me to believe it was."
+    "To me, the flavor wasn't as pronounced as I would have expected and there was definitely a chemical aftertaste... but it wasn't the culinary disaster Saki led me to believe it was."
 
     Chi "Maybe I'm just more sensitive because you keep pouring sugar down your throat."
 
-    "Chisato fires back before taking another bite."
+    show saki sad_annoyed_cas
+    with dissolve
 
     Saki "I make no apologies."
 
-    "Saki replies with mock indignation."
-
-    "Noriko laughs."
-
     Nori "The strawberry is good. What kind did you two get?"
 
-    Hisao "Vanilla."
+    Hisao "Vanilla. This is pretty good."
 
-    "I answer."
-
-    Hisao "You're right, this is pretty good."
+    # eyes closed 
+    show saki grin_cas
+    with dissolve
 
     Saki "Just vanilla? How pedestrian."
 
     Hisao "I happen to like vanilla, thank you very much."
 
-    "I say, matching her tone."
-
     "To prove my point, I take two more quick bites, and then abruptly stop when I feel a slight twinge of pain starting behind my eyes."
 
     "I squeeze them shut and pinch the bridge of my nose."
 
-    Hisao "Ah, damnit..."
+    Hisao "Ah, damnit... "
+
+    show saki giggle_cas
+    with dissolve
 
     Saki "Serves you right."
 
     "Saki says teasingly, but with a hint of concern."
 
+    show saki slight_smile_cas_close
+    with dissolve
+
     Saki "You okay?"
 
-    Hisao "Yeah..."
-
-    "I groan, blinking hard as the feeling passes."
-
-    Hisao "Haven't had brain freeze in a while."
+    Hisao "Yeah... Haven't had brain freeze in a while."
 
     "I look at Saki's cone, which is much further along in being consumed than the rest of ours are."
 
     Hisao "How do you not get one?"
 
+    show saki grin_cas
+    with dissolve
+
     Saki "More practice."
 
-    "She grins."
+    scene city_street2
+    with dissolve
+
+    play sound crowd_outdoors volume 0.3 loop
 
     "We all find seats on a pair of benches outside the ice cream shop, and take a few minutes to relax."
 
@@ -96,13 +98,14 @@ label saki_sc9:
 
     "The sounds of a bustling metropolis surround us."
 
-    "I hear cars driving, people walking and chatting, even the subtle shifting in the wind as it caresses the buildings around us."
-
-    "Even the smell is different."
+    "I hear cars driving, people walking and chatting, even the subtle shifting in the wind as it caresses the buildings around us. Even the smell is different."
 
     "It's not one I would want to be around all the time, but it's a nice contrast to both Yamaku and the hospital."
 
     "All of it combines into a subliminal feeling that the world around you is alive."
+
+    show saki determined_cas_close
+    with dissolve
 
     Saki "Noriko!"
 
@@ -114,17 +117,24 @@ label saki_sc9:
 
     Nori "Oh, I got it from a shop a few blocks from here. Plus Two."
 
+    show saki neutral_cas_close
+    with dissolve
+
     Saki "Really? We were just there last week, and I didn't see that anywhere."
 
-    Nori "It was from their spring lineup last year. It was on clearance and I didn't have a chance to wear it earlier. Sorry..."
+    Nori "It was from their spring lineup last year. It was on clearance and I didn't have a chance to wear it earlier. Sorry... "
+
+    show saki sleepy_cas_close
+    with dissolve
 
     Saki "Damn, I really wanted a yellow one."
 
-    "Chisato speaks up."
-
     Chi "Maybe they'll bring it back if it was popular. You know how they change out things every year."
 
-    Saki "I guess..."
+    show saki sad_cas_close
+    with dissolve
+
+    Saki "I guess... "
 
     "Saki huffs, still holding on to her dejected tone as tightly as her cone."
 
@@ -140,17 +150,21 @@ label saki_sc9:
 
     Chi "Where do you want to go first?"
 
-    "She asks all of us."
-
-    "I stand as well, throwing my trash into a bin right beside the benches."
-
-    "Noriko gets up a little more reservedly, brushing off the back of her dress and smoothing it out."
+    # "I stand as well, throwing my trash into a bin right beside the benches."
 
     Nori "We could head back to Plus Two and see if they have something like this for Saki."
 
+    "Noriko gets up a little more reservedly, brushing off the back of her dress and smoothing it out."
+
     "Saki's mood seems to become more positive as she juggles her cane and purse into comfortable positions."
 
+    show saki basic_smile_cas_close
+    with dissolve
+    
     "She reaches both of her hands out towards me; one empty, one holding her cane."
+
+    show saki basic_smile2_cas_close
+    with dissolve
 
     Saki "Hey Hisao, can I borrow you for a second?"
 
@@ -158,9 +172,13 @@ label saki_sc9:
 
     "She grabs onto them tightly and uses them to haul herself up, flashing me a brief smile of appreciation."
 
+    show saki determined_cas
+    with Dissolve(0.7)
+
     Saki "Alright! Even if they don't have it, they should have some other neat things, right?"
 
-    
+    scene clothes_store
+    with dissolve
 
     "I do not belong here."
 
@@ -194,7 +212,7 @@ label saki_sc9:
 
     "I look at the ensemble that one of the male mannequins is wearing, and I can't help it; the outfit just looks silly."
 
-    "A plaid beret, a blood red dress-style shirt with a black scarf, and jeans that are..."
+    "A plaid beret, a blood red dress-style shirt with a black scarf, and jeans that are... "
 
     "Wait, these are mens jeans? No."
 
@@ -202,7 +220,7 @@ label saki_sc9:
 
     "There's no way a man could wear anything that tight without some serious consequences."
 
-    "Well...at least it doesn't cost anything to look, right? I look at the price out of curiosity and my eyes widen."
+    "Well... at least it doesn't cost anything to look, right? I look at the price out of curiosity and my eyes widen."
 
     "I used to do my own clothes shopping back home for anything that wasn't required for school, and I swear I could afford an entire wardrobe for the price of this one outfit."
 
@@ -222,19 +240,18 @@ label saki_sc9:
 
     Saki "Hisao?"
 
-    "I hear Saki ask."
-
     Hisao "Where are you?"
 
     Saki "Over here."
 
-    "I reply, and make my way deeper into the store trying to find her."
+    "I make my way deeper into the store trying to find her."
 
     Hisao "Where's 'here'?"
 
-    "She says, a bit louder."
-
     Saki "I'm right he-oof."
+
+    show saki tired_cas_close
+    with vpunch
 
     "I manage to get out, as we both turn around opposite sides of the same rack and bump into each other."
 
@@ -242,11 +259,17 @@ label saki_sc9:
 
     Hisao "You okay?"
 
+    show saki slight_smile_cas_close
+    with dissolve
+
     Saki "Yeah, I'm fine."
 
     "She answers, reaching up to brush her hair out of her eyes."
 
     "Her other arm, which is holding her cane, has a few garments over it."
+
+    show saki grin_cas_close
+    with dissolve
 
     Saki "Can you help me with something really quick?"
 
@@ -258,45 +281,36 @@ label saki_sc9:
 
     Hisao "Sure."
 
-    "I say, hesitantly."
+    show saki pout1_cas_close
+    with dissolve
 
     Saki "I can't choose between these two outfits."
 
     "She says, holding them out for me to inspect them, but I can't get a clear view of them draped over her arm."
 
+    show saki basic_smile2_cas_close
+    with dissolve
+
     Saki "Noriko likes one, Chisato likes the other. Can you be our tiebreaker?"
 
     Hisao "Okay."
 
-    "I agree dumbly."
-
-    "Warning bells are going off in my head."
+    "I agree dumbly. Warning bells are going off in my head."
 
     "I follow Saki to the back of the store where the other two girls are already seated on low padded benches in front of the dressing booths, talking among themselves."
 
+    hide saki 
+    with dissolve
+
     "I take a seat next to Noriko as Saki disappears into one of the booths, closing the door."
 
-    Hisao "I don't know anything about fashion."
+    Hisao "I don't know anything about fashion. I don't know if my opinion is going to count for anything... "
 
-    "I wonder aloud."
+    Nori "That's why you're the perfect judge! You won't be able to tell how horrible the colors are on the jacket she took in there... "
 
-    Hisao "I don't know if my opinion is going to count for anything..."
+    Chi "Now wait a minute. Those leggings aren't much better. It's too late in season right now for black... "
 
-    Nori "That's why you're the perfect judge!"
-
-    "Noriko says."
-
-    Nori "You won't be able to tell how horrible the colors are on the jacket she took in there..."
-
-    Chi "Now wait a minute."
-
-    "Chisato snaps back."
-
-    Chi "Those leggings aren't much better. It's too late in season right now for black..."
-
-    "I understand the words they're saying."
-
-    "I just have no idea what they mean."
+    "I understand the words they're saying. I just have no idea what they mean."
 
     "I endure the banter for a few minutes, hearing various shifting and a thump or two inside the booth."
 
@@ -318,7 +332,7 @@ label saki_sc9:
 
     "Saki asks, looking at me."
 
-    Hisao "It..."
+    Hisao "It... "
 
     "I stumble."
 
@@ -332,9 +346,9 @@ label saki_sc9:
 
     "I don't think you'd see many people wearing that combination of colors or even that outfit, at least where I used to live."
 
-    "But still, on Saki..."
+    "But still, on Saki... "
 
-    Hisao "...it...works."
+    Hisao "... it... works."
 
     "I say, my eyebrows raising in astonishment at both how Saki looks and my own thoughts on that appraisal."
 
@@ -350,7 +364,7 @@ label saki_sc9:
 
     "Chisato waves her hand impatiently."
 
-    Chi "Yes, yes... now try the other one on. I'm not admitting defeat that easily."
+    Chi "Yes, yes...  now try the other one on. I'm not admitting defeat that easily."
 
     "Saki sticks her tongue out before retreating back into the changing room."
 
@@ -410,11 +424,11 @@ label saki_sc9:
 
     Hisao "That looks great."
 
-    Saki "I don't know which outfit to get, though..."
+    Saki "I don't know which outfit to get, though... "
 
     "Saki says, looking down at the dress and feeling the texture between her fingertips."
 
-    Saki "My dad might give me a call if he sees that I put that big a charge on the card..."
+    Saki "My dad might give me a call if he sees that I put that big a charge on the card... "
 
     "Her dad might call her? There's no way I could even attempt to buy one of those things on my emergency card without the bank instantly closing the account."
 
@@ -466,7 +480,7 @@ label saki_sc9:
 
     "Ah, the privileges of being a peasant."
 
-    Hisao "They're so... plain."
+    Hisao "They're so...  plain."
 
     "Noriko states."
 
@@ -508,7 +522,7 @@ label saki_sc9:
 
     "And to top it off, they're less than what I was currently looking at."
 
-    Hisao "Huh, you're right...alright then. Where did Chisato run off to?"
+    Hisao "Huh, you're right... alright then. Where did Chisato run off to?"
 
     "The short-haired girl wandered off sometime in the last few minutes, obviously bored waiting for me to pick out something."
 
@@ -688,7 +702,7 @@ label saki_sc9:
 
     Hisao "We spend about ten times as much time arguing over different things than we do actually playing."
 
-    Hisao "Well, some of us are more difficult than others..."
+    Hisao "Well, some of us are more difficult than others... "
 
     "Saki playfully says in a sing-song voice."
 
@@ -730,7 +744,7 @@ label saki_sc9:
 
     "With that, she stands up and walks away from the stand, raising the phone to her ear."
 
-    Hisao "Um..."
+    Hisao "Um... "
 
     "Noriko says, suddenly looking around."
 
@@ -828,7 +842,7 @@ label saki_sc9:
 
     "She really does seem to be a kind person at heart, for all the teasing she likes to do."
 
-    "To willingly search out others that are having a hard time, and offer them friendship..."
+    "To willingly search out others that are having a hard time, and offer them friendship... "
 
     "Still, it leaves a few new questions in my mind."
 
@@ -840,9 +854,9 @@ label saki_sc9:
 
     "That would be something you would notice, even in a school that didn't cater to people like us."
 
-    "Speaking of which..."
+    "Speaking of which... "
 
-    Hisao "Just...ah...just what is Noriko's..."
+    Hisao "Just... ah... just what is Noriko's... "
 
     "I can't seem to finish the question, whether it's from my own reluctance or if I'm trying to display some social tact."
 
@@ -852,15 +866,15 @@ label saki_sc9:
 
     "I say, a little uncomfortable."
 
-    Hisao "I mean, I have my heart, Chisato has her diabetes..."
+    Hisao "I mean, I have my heart, Chisato has her diabetes... "
 
-    Hisao "Actually...Noriko doesn't have one."
+    Hisao "Actually... Noriko doesn't have one."
 
-    Hisao "Wait...really?"
+    Hisao "Wait... really?"
 
     "I ask, my brow knitting in confusion."
 
-    Hisao "I thought Yamaku..."
+    Hisao "I thought Yamaku... "
 
     Hisao "Yamaku is a school that specializes in disabilities, but anyone can go there."
 
@@ -870,19 +884,19 @@ label saki_sc9:
 
     "I also think I know the answer to this too as I ask it, but it takes what Saki says next to solidify it for me."
 
-    Hisao "Well...how would you feel at your old school? You'd be the only one with a heart problem, while everyone around you would be normal. At Yamaku though..."
+    Hisao "Well... how would you feel at your old school? You'd be the only one with a heart problem, while everyone around you would be normal. At Yamaku though... "
 
     "I instantly see what she's getting at, but it floors me anyway."
 
     "Noriko's sense of social anxiety comes from the fact she's normal?"
 
-    "Ironically, after a few more seconds thinking about it...it makes sense."
+    "Ironically, after a few more seconds thinking about it... it makes sense."
 
     "What constitutes the idea o"
 
     Hisao "normal"
 
-    "Anyway? If almost everyone at Yamaku has some sort of condition or disability...then someone who doesn't have anything would be the odd one out."
+    "Anyway? If almost everyone at Yamaku has some sort of condition or disability... then someone who doesn't have anything would be the odd one out."
 
     "If the students at Yamaku really are like students everywhere else, then do the same types of cliques exist? The same bullying? The same social pressure that comes with trying to fit in, and the stigma associated with it if you don't?"
 
@@ -914,9 +928,9 @@ label saki_sc9:
 
     "Saki asks Chisato, as the dark haired girls sit down on either side of us, eyeing the ramen hungrily."
 
-    Hisao "Ayame. She wanted to go over some final details for that presentation we're doing in class tomorrow...hey, you two didn't start without me, did you?"
+    Hisao "Ayame. She wanted to go over some final details for that presentation we're doing in class tomorrow... hey, you two didn't start without me, did you?"
 
-    Hisao "No...?"
+    Hisao "No... ?"
 
     Hisao "Yeah, yeah."
 
@@ -1016,7 +1030,7 @@ label saki_sc9:
 
     "Saki says, opening her eyes, moist with tears."
 
-    Hisao "H...help me sit up..."
+    Hisao "H... help me sit up... "
 
     "I give Saki my shoulder and arm to brace herself on as we get her into a seated position."
 
@@ -1038,7 +1052,7 @@ label saki_sc9:
 
     "She manages to say, stretching out the leg."
 
-    Hisao "It twisted..."
+    Hisao "It twisted... "
 
     "I look down at her ankle, but I can't see anything wrong with it."
 
@@ -1054,7 +1068,7 @@ label saki_sc9:
 
     "Saki yells."
 
-    Hisao "Just...just give me a minute, okay?"
+    Hisao "Just... just give me a minute, okay?"
 
     Hisao "Take your time."
 
@@ -1084,7 +1098,7 @@ label saki_sc9:
 
     "Saki says in a weak, shaky voice."
 
-    Hisao "Help me..."
+    Hisao "Help me... "
 
     Hisao "Hold on a sec, okay? Hold this."
 
@@ -1234,7 +1248,7 @@ label saki_sc9:
 
     "She nods."
 
-    Hisao "Good...that's some really quick thinking, Chisato. I'm impressed."
+    Hisao "Good... that's some really quick thinking, Chisato. I'm impressed."
 
     "He praises, with a hint of his trademark smile."
 
@@ -1246,11 +1260,11 @@ label saki_sc9:
 
     Hisao "Saki? How are you holding up?"
 
-    Hisao "It doesn't hurt as much as it did when I twisted it, but it still hurts..."
+    Hisao "It doesn't hurt as much as it did when I twisted it, but it still hurts... "
 
     Hisao "How does it feel? Dull pain, ache, stabbing pain?"
 
-    Hisao "Constant ache...it feels warm and tingly."
+    Hisao "Constant ache... it feels warm and tingly."
 
     "Nurse nods curtly."
 
@@ -1362,7 +1376,7 @@ label saki_sc9:
 
     "Nurse looks at me expectantly."
 
-    Hisao "Can you tell Saki to text me when she finds out what's going on? It doesn't matter how late it is..."
+    Hisao "Can you tell Saki to text me when she finds out what's going on? It doesn't matter how late it is... "
 
     Nurse "I'll make sure she gets the message. Get some rest, Nakai."
 

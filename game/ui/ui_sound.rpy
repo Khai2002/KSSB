@@ -1,5 +1,6 @@
 # Music
 define canon = "audio/Canon In D.ogg"
+define car_interior = "audio/Car_Interior.ogg"
 
 define afternoon = "bgm/Afternoon.ogg"
 define ah_eh_i_oh_you = "bgm/Ah_Eh_I_Oh_You.ogg"
