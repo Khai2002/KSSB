@@ -3,6 +3,12 @@ label saki_sc10:
     scene school_pool
     with dissolve 
 
+    window hide
+
+    $ narrator = nvl_narrator
+
+    window show
+
     "Saki's not at the pool this morning."
 
     "I don't think it's even fair to say that I'm here, either."
@@ -96,6 +102,12 @@ label saki_sc10:
     "Either way, I don't want to go down that road right now."
 
     "I turn and leave the pool area, the squeaking of my shoes on the tile the loudest sound the room will hear this morning."
+
+    window hide
+
+    $ narrator = adv_narrator
+
+    window show
 
     scene school_scienceroom
     with dissolve
