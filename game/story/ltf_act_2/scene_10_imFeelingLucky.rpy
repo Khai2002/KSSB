@@ -21,6 +21,8 @@ label saki_sc10:
 
     "Habit, I guess."
 
+    nvl clear
+
     "I didn't get much sleep last night."
 
     "I showered and tried, but when that didn't work I tried to do some reading."
@@ -29,45 +31,47 @@ label saki_sc10:
 
     "I only managed to doze off."
 
+    nvl clear
+
     "My phone finally vibrated a bit after midnight."
 
     "I was alert to it before the first buzz even stopped, fumbling blindly for it."
 
     "I opened it and my eyes focused on a single text message."
+    
+    nvl clear
 
-    "Out of the hospital."
+    SakiNvl "{i}Out of the hospital.{/i}"
 
-    "Heading back to Yamaku."
+    SakiNvl "{i}Heading back to Yamaku.{/i}"
 
-    "Are you okay? I managed to type back."
+    HisaoNvl "Are you okay?" 
 
-    "I already knew the answer to that question on more than one level, but I couldn't actually think of anything more meaningful to say."
+    "I managed to type back. But I already knew the answer to that question on more than one level, but I couldn't actually think of anything more meaningful to say."
 
-    "Nothing broken."
+    SakiNvl "{i}Nothing broken.{/i}"
 
-    "I hesitated here."
+    # "I hesitated here."
 
-    "I wanted to ask for more details... but... something told me I shouldn't."
+    "I wanted to ask for more details... but... something told me I shouldn't. I just knew that if she wanted to share them, she would have."
 
-    "I just knew that if she wanted to share them, she would have."
+    nvl clear
 
     "After a few long minutes, I sent another message just as inadequate as my first."
 
-    "Glad you're okay."
-
-    "Get some sleep."
+    HisaoNvl "Glad you're okay. Get some sleep."
 
     "My phone stayed silent after that."
 
-    "I don't even remember falling asleep."
-
-    "I just remember the alarm waking me up."
+    "I don't even remember falling asleep. I just remember the alarm waking me up."
 
     "The breeze from the overhead vents combined with the humidity from the room chills me."
 
     "I pull my phone out of my pocket and browse through that short exchange again, and think about last night."
 
     "When I replay the scene in my head, something isn't right."
+
+    nvl clear
 
     "Saki was hurt, to be sure, but she seemed just as equally scared and frustrated."
 
@@ -79,6 +83,8 @@ label saki_sc10:
 
     "What happened there?"
 
+    nvl clear
+
     "And then there was her attitude as soon as Nurse actually did show up."
 
     "If I was in that situation, I would probably feel relief that someone had come to help."
@@ -89,11 +95,11 @@ label saki_sc10:
 
     "And not from the physical pain of her ankle."
 
-    "It was like all the life had gone out of her the second she saw him."
-
-    "That's not a normal response to the situation."
+    "It was like all the life had gone out of her the second she saw him. That's not a normal response to the situation."
 
     "What makes it feel so startling is that it feels so similar to some of my own reactions when I was in the hospital, coming to grips with what had happened to me."
+
+    nvl clear
 
     "I shake my head and snap my phone closed with an audible clack."
 
@@ -107,16 +113,19 @@ label saki_sc10:
 
     $ narrator = adv_narrator
 
-    window show
-
     scene school_scienceroom
     with dissolve
+
+    window show
 
     "We're about ten minutes away from class starting when Mutou stomps in, his heavy footsteps announcing his arrival before he appears in the doorway."
 
     "Given that he's here before half the class has shown up, all of us are just as shocked as I am to see him."
 
     "He scans the room and sees our faces, giving a small smile."
+
+    show mutou smile
+    with dissolve
 
     Mutou "Don't look so shocked. This does happen from time to time, you know."
 
@@ -128,6 +137,9 @@ label saki_sc10:
 
     "Uh-oh."
 
+    show mutou normal 
+    with dissolve
+
     Mutou "Ah, Nakai. I was hoping you'd be here. Can I talk to you for a minute?"
 
     "The attention the class was giving to Mutou is now firmly affixed on me."
@@ -136,29 +148,29 @@ label saki_sc10:
 
     Hisao "Sure."
 
-    "I say, pushing my chair back and standing up."
+    # "I say, pushing my chair back and standing up."
 
+    scene school_hallway3
+    with dissolve
+    
     "I follow him out into the hallway, with the door closing behind us."
 
     "Seeing as how there's still a few students that need to show up, I'm wondering just how private this conversation can actually be."
 
+    show mutou normal
+    with dissolve
+
     Mutou "I heard through the grapevine you had a rough day yesterday."
-
-    "He starts, with little preamble."
-
-    "I grimace."
 
     "I shouldn't be surprised that the faculty would know about it, and soon enough, the rest of the school will probably follow suit."
 
-    "Having a student go to the hospital, combined with all the theatrics involved like an ambulance showing up is bound to have that kind of effect."
-
-    "Even in a school like Yamaku."
+    "Having a student go to the hospital, combined with all the theatrics involved like an ambulance showing up is bound to have that kind of effect even in a school like Yamaku."
 
     "Probably especially in a school like Yamaku."
 
     Hisao "You could say that."
 
-    "I say, swallowing hard to quench my suddenly parched throat."
+    # "I say, swallowing hard to quench my suddenly parched throat."
 
     Mutou "I heard a little bit about it from Nurse. He's the reason I'm talking to you. He wants you to stop by and see him today."
 
@@ -166,9 +178,10 @@ label saki_sc10:
 
     Hisao "Do I need to go now?"
 
-    Mutou "He said it was up to me, actually."
+    show mutou smile
+    with dissolve
 
-    "The teacher says, folding his arms."
+    Mutou "He said it was up to me, actually."
 
     Mutou "I can see how tired you are. We're starting a group project today that will last for the rest of the week, so if you wanted to ditch today you should have no problem catching up with a random group when you get back to class tomorrow."
 
@@ -180,17 +193,16 @@ label saki_sc10:
 
     Mutou "Anyway, class is about to start. Do you want to go now, or later?"
 
-    "I'm not sure I want to face Nurse just yet."
-
-    "I have a pretty good idea that it won't be a standard social call, given what happened to Saki - and myself - last night."
+    "I'm not sure I want to face Nurse just yet. I have a pretty good idea that it won't be a standard social call, given what happened to Saki - and myself - last night."
 
     "I don't know if putting it off will change my apprehension about it, but it won't hurt to try."
 
     Hisao "I'll stay. I'll go there after class."
 
-    "Mutou nods, the question settled in his mind."
+    "Mutou nods, the question settled in his mind. He holds open the door for me."
 
-    "He holds open the door for me."
+    scene school_scienceroom
+    with dissolve
 
     "A few minutes later, the last few stragglers make it to class and take their seats, most of which are surprised to see their habitually late teacher at his post."
 
@@ -202,9 +214,9 @@ label saki_sc10:
 
     "Various murmurs of assent drift to the front of the room."
 
-    Hisao "Good. I'll be handing back the tests you took last week later during the class. Most of you did fairly well, but there's definitely some room for improvement."
+    Mutou "Good. I'll be handing back the tests you took last week later during the class. Most of you did fairly well, but there's definitely some room for improvement."
 
-    Hisao "So I thought we'd do some group work over the next few days to see if that helps. I have a packet here for each group that covers everything we'll be going over the rest of the week. Each group gets one. There's a few questions at the end of each page that you'll answer, then turn the packet in at the end of the week...yes, Mikado?"
+    Mutou "So I thought we'd do some group work over the next few days to see if that helps. I have a packet here for each group that covers everything we'll be going over the rest of the week. Each group gets one. There's a few questions at the end of each page that you'll answer, then turn the packet in at the end of the week...yes, Mikado?"
 
     "I turn to look at Misha as she puts her hand down."
 

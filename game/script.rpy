@@ -22,6 +22,9 @@ define Nomiya = Character("Nomiya", color="#e0e0e0",  what_suffix='"', what_pref
 
 define Kyle = Character("Kyle", color="#f3f3f3",  what_suffix='"', what_prefix='"')
 
+define SakiNvl = Character(None, kind=nvl, what_prefix="\"", what_suffix="\"", what_color="#b77029")
+define HisaoNvl = Character(None, kind=nvl, what_prefix="\"", what_suffix="\"", what_color="#629276")
+
 define story = nvl_narrator
 
 

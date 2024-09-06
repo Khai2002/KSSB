@@ -367,7 +367,7 @@ define gui.nvl_borders = Borders(0, 150, 0, 30)
 
 ## The maximum number of NVL-mode entries Ren'Py will display. When more entries
 ## than this are to be show, the oldest entry will be removed.
-define gui.nvl_list_length = 6
+define gui.nvl_list_length = 8
 
 ## The height of an NVL-mode entry. Set this to None to have the entries
 ## dynamically adjust height.
@@ -385,7 +385,7 @@ define gui.nvl_name_width = 225
 define gui.nvl_name_xalign = 1.0
 
 ## The position, width, and alignment of the dialogue text.
-define gui.nvl_text_xpos = 675
+define gui.nvl_text_xpos = 360
 define gui.nvl_text_ypos = 12
 define gui.nvl_text_width = 885
 define gui.nvl_text_xalign = 0.0
