@@ -1,0 +1,15 @@
+1_basic_happy2..............saki_happy
+2_sad_annoyed...............saki_sad_annoyed
+3_basic_pout................saki_pout1
+3_basic_pout_2..............saki_pout2
+4_basic_reminisce...........saki_reminisce
+5_basic_smile_eyesopen......saki_smile2
+5_basic_smile_paj...........saki_smileclosed
+6_cane_giggle...............saki_giggle
+7_frown_cas.................saki_frown
+8_grin......................saki_grin
+9_perky_sad_cas.............saki_sad
+10_perky_smile_cas..........saki_determined
+saki_first..................saki_smile1
+saki_pout_noblush...........saki_pout2_noblush
+saki_poutlookaway_noblush...saki_pout1_noblush
