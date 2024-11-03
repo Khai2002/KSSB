@@ -2,6 +2,8 @@ label saki_sc1:
 
     scene school_hallway3_blurred
     with dissolve
+
+    show saki slightsmile_aww_close
     
     stop music fadeout 2.0
 
@@ -106,7 +108,7 @@ label saki_sc1:
 
     Saki "Are you lost?"
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     play music carefree_days volume 0.7 fadein 2.0
@@ -115,7 +117,7 @@ label saki_sc1:
 
     Hisao "Um... I guess I am. I'm new here."
 
-    show saki basic_smile
+    show saki smile1
     with dissolve
 
     Saki "What are you looking for?" 
@@ -128,7 +130,7 @@ label saki_sc1:
     Hisao "I guess I'm an errand boy for the student council right now. 
     They sent me to fetch a few things they need for the festival stall, and I was trying to figure out where to find them."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
     
     "She gives a small nod of acknowledgment and holds out her free hand expectantly for the list."
@@ -155,12 +157,12 @@ label saki_sc1:
 
     "They're filled with an eagerness and intensity as they fly over the paper, practically twinkling as the gears in her brain turn."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "Well, you can probably find most of this in one of the art rooms."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     "She fixes that gaze on me and hands me the list back. It's said lightly, but that look of amusement hasn't left her eyes yet. Strangely, I find it disarming."
@@ -173,7 +175,7 @@ label saki_sc1:
     Saki "A lot of people think that, but this isn't where the art rooms are. This is for the theatre and musical departments. 
     Drama, band, things like that. That's why that side of the building is so large."
 
-    show saki basic_smile
+    show saki smile1
     with dissolve
 
     #"She points towards its far end."
@@ -195,7 +197,7 @@ label saki_sc1:
     Saki "Oh you don't know the half of it. He has a bit of a reputation around here. 
     By the way, I can show you where the main art room is. I'm in the art club and I need to head there anyway."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     #"She pauses for a second, looking at me expectantly."
@@ -216,7 +218,7 @@ label saki_sc1:
 
     $ saki_name = "Saki"
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     Saki "It's Saki."
@@ -229,7 +231,7 @@ label saki_sc1:
 
     "I try to match the genuine tone in her voice with my own and finding it surprisingly easy. I take a step ahead and pull open the door for her."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "Pleased to meet you, and thank you."
@@ -237,7 +239,7 @@ label saki_sc1:
     #"She says as she steps through, with me following closely behind."
 
     scene school_music_hall
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     "The foyer is modest yet airy as I look around, with a few scattered chair and benches, a wall with a brightly painted mural, and large doorways leading off to other areas of the building."
@@ -274,7 +276,7 @@ label saki_sc1:
 
     play sound door_open volume 0.3
 
-    show saki basic_smile
+    show saki smile1
     with dissolve
 
     "Saki comes back out again, cane in one hand, and a case in the other."
@@ -287,14 +289,14 @@ label saki_sc1:
 
     Hisao "Would you like me to carry that for you?"
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "Are you sure?"
 
     Hisao "No problem. You're showing me how to get to the art room, it's the least I can do, right?"
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "Thank you."
@@ -311,7 +313,7 @@ label saki_sc1:
     I put the question idly in the back of my mind while we start making our way back across the campus."
 
     scene school_gardens
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     Saki "So, Hisao..."
@@ -364,7 +366,7 @@ label saki_sc1:
 
     #"I submit, my shoulders slumping in an exaggerated sigh."
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     "The next few minutes pass by with idle chitchat. I ask Saki about the festival, since I'm new and it's coming up fast.
@@ -419,13 +421,13 @@ label saki_sc1:
 
     #"She takes a deep breath, and exhales it with a smile, the light shining in her eyes again."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "Shall we keep going? We're almost there."
 
     scene school_courtyard
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     play music school_days fadein 2.0
@@ -438,7 +440,7 @@ label saki_sc1:
 
     Hisao "So's my classroom. Well, I suppose the walk was refreshing."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "You got to see more of the school at least."
@@ -457,7 +459,7 @@ label saki_sc1:
     "I start to turn towards the elevator, when Saki surprises me. She's making a beeline for the stairs, as if she was completely oblivious to its existence."
 
     scene school_staircase2
-    show saki basic_smile
+    show saki smile1
     with dissolve
 
     "With deliberate, practiced motions, she places her right hand on the banister and starts up them, slowly but surely."
@@ -473,7 +475,7 @@ label saki_sc1:
 
     Saki "You coming?"
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     "She says, choosing to purposefully overlook - or ignore - my transgression. The knowing grin on her face suggests that it's the former."
@@ -484,12 +486,12 @@ label saki_sc1:
 
     #"I apologize, my voice thick with shame."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "You're new here?"
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "It's okay. Everyone needs some time to adjust here. And I don't just mean to the school. 
@@ -499,13 +501,13 @@ label saki_sc1:
 
     #"I say, starting up after her as she continues."
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     Saki "Once in a while, but usually only once. Just don't ask me to go hiking behind the school. Stairs aren't that difficult, just slow."
 
     scene school_hallway3
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     "We both reach the top at about the same time, which opens up into the now familiar hallway."
@@ -519,14 +521,14 @@ label saki_sc1:
 
     Hisao "Great. Sure took the long road in getting here..."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "Yes, but if you didn't take the long way you would have made me carry that thing all by myself."
 
     #"Saki chides, looking down at her case as we start towards the end of the hall."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Hisao "What's in here, anyway?"
@@ -537,12 +539,12 @@ label saki_sc1:
 
     Hisao "And the art club? That seems like it would be quite the schedule."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "I like to keep myself busy."
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     Saki "Besides, it's fun and it helps."

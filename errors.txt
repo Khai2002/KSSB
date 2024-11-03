@@ -2,9 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/story/ltf_act_2/scene_6_aSpoonfulOfSugar.rpy", line 10: expected statement.
-    narrator = adv_narrator
-             ^
+The label _call_timeskip is defined twice, at File "game/story/ltf_act_1/scene_1_detour.rpy", line 556:
+    call timeskip from _call_timeskip
+and File "game/story/ltf_act_1/scene_4_electricDaisiesPart2.rpy", line 1616:
+    call timeskip from _call_timeskip
+
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Tue Aug 13 01:33:15 2024
+Mon Oct 21 15:34:30 2024

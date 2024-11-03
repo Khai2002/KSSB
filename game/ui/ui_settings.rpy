@@ -16,6 +16,8 @@ image darkgrey = Solid("#0D0D0D")
 image soft = Solid("#F5D4A1")
 image thanksBG = Solid("#898989")
 
+define easefromcenter = MoveTransition(0.5, enter=center, enter_time_warp=_warper.easeout)
+
 transform twoleft:
         xpos 300
         yalign 1.0
@@ -103,7 +105,6 @@ init python:
 
         def past_night(img_in):
                 return im.MatrixColor(img_in, im.matrix.tint(0.6, 0.6, 0.7) * im.matrix.saturation(0.6) * im.matrix.saturation(0.15) * im.matrix.tint(1.0, .94, .76))
-
 
 
 define fw_dis_fast = Dissolve(0.04, alpha=True)

@@ -5,6 +5,8 @@ label saki_sc5:
     scene school_dormhisao_blurred
     with dissolve 
 
+    play music daylight fadein 2.0
+
     "No good deed goes unpunished, as some supposedly wise man once said."
 
     "I paid for the good time I had yesterday with the hell of waking up this morning."
@@ -56,6 +58,8 @@ label saki_sc5:
     show shizune behind_blank at tworight
     with dissolve
 
+    stop music fadeout 1.0
+    play music the_student_council fadein 2.0
 
     Misha "Good morning, everyone~!"
 
@@ -167,8 +171,6 @@ label saki_sc5:
 
     Hisao "I...checked out the band's performance."
 
-    #"I say, not sure where she's going with this."
-
     Misha "Wahahaha, I knew it, I knew it~!"
 
     "Misha exclaims, her voice right back at full volume."
@@ -223,9 +225,10 @@ label saki_sc5:
 
     "He reaches his standard spot by his desk, then turns to face us, taking us in with a slight smile."
 
-    Mutou "I don't have to even ask if you enjoyed the festival, judging by how many of you are here and awake."
+    stop music fadeout 1.0
+    play music flipperies fadein 2.0
 
-    "He says, running a hand through his hair."
+    Mutou "I don't have to even ask if you enjoyed the festival, judging by how many of you are here and awake."
 
     Mutou "I did have a pop quiz scheduled for you to take today..."
 
@@ -247,8 +250,9 @@ label saki_sc5:
 
     "He finishes, that trademark grin pulling at the corner of his mouth."
 
+    pause 2.0
+
     play sound carillon volume 0.2 
-    queue sound crowd_indoors volume 0.3 fadein 1.0 loop
 
     "The lunch bell might as well be the alarm at a prison warning of an escape."
 
@@ -258,7 +262,7 @@ label saki_sc5:
 
     Hisao "In a hurry?"
 
-    "I ask cordially, leaning back to stretch and feeling a few of my vertebrae pop."
+    # "I ask cordially, leaning back to stretch and feeling a few of my vertebrae pop."
     
     show misha perky_sad
     with dissolve
@@ -307,21 +311,19 @@ label saki_sc5:
 
     "I wonder what I've done to grab his attention."
 
-    "He glances through the door and gives a weak, cursory smile."
+    # "He glances through the door and gives a weak, cursory smile."
 
     "We both stand off to the side, letting the rest of the students vacate until there's just the two of us standing in front of the classroom."
 
     Mutou "Just wanted to make sure that you were doing okay."
 
-    "He starts, putting his hands casually into his pockets."
+    # "He starts, putting his hands casually into his pockets."
 
     Mutou "You just finished up your first week, and I wanted to see how you were adjusting to everything."
 
-    Hisao "Oh..."
+    Hisao "Oh... I guess I'm settling in alright."
 
-    "I say, relieved but not completely relaxed. I thought that I might have been in trouble, but this still isn't an easy topic of conversation for me."
-
-    Hisao "I guess I'm settling in alright."
+    "I thought that I might have been in trouble, but this still isn't an easy topic of conversation for me."
 
     Mutou "How are the classes? I was worried that you might have some problems because of how long you were in the hospital. We're not going too fast for you, are we?"
 
@@ -331,19 +333,23 @@ label saki_sc5:
 
     Hisao "I've always liked science, so it wasn't that hard to get back into it."
 
+    show mutou smile
+    with dissolve
+
     Mutou "Good. Great, actually."
 
-    "Mutou says, a look of relief on his face. I get the feeling his subject of studies isn't appreciated by many of his students."
+    "Mutou says with a look of relief on his face. I get the feeling his subject of studies isn't appreciated by many of his students."
 
     Mutou "How about your other classes? Any problems catching up?"
 
     Hisao "I'm having a hard time with English, but I don't think it's because of the hospital stay…"
 
-    "The older man chuckles at the joke I make."
-
     Mutou "I understand. That was pretty much it. I would have had a better idea after the test I was going to give today, but I thought I'd just ask. Oh, one more thing - stop by the nurse's office."
 
     Hisao "Do I need to go right now?"
+
+    show mutou normal
+    with dissolve
 
     Mutou "No, Nurse didn't make it sound like it was urgent. Just swing by when you're able to."
 
@@ -360,9 +366,9 @@ label saki_sc5:
 
     Mutou "If you're really not having any problems, then I expect you to get a good grade on the quiz tomorrow."
 
-    "Well, I'm pretty confident I don't have to worry."
+    "Well, I'm pretty confident I don't have to worry. All I do is nod and continue on my way."
 
-    "All I do is nod and continue on my way."
+    stop music fadeout 1.0
 
     scene school_hallway3
     with dissolve
@@ -375,9 +381,11 @@ label saki_sc5:
 
     Hisao "Hey, you two."
 
-    show saki basic_smile2 at tworight
-    show lilly basic_displeased at twoleft
+    show saki smile2 at tworightsaki
+    show chisato smile at twoleft
     with dissolve
+
+    play music carefree_days fadein 2.0
 
     "Chisato and Saki turn at the sound of my voice, both of them offering smiles and greetings."
 
@@ -387,10 +395,13 @@ label saki_sc5:
 
     Hisao "Got a good night's sleep?"
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "I was out before my head even hit the pillow."
+
+    show chisato sad_annoyed
+    with dissolve
 
     Chi "Oh lucky you. I was up half the night taking down that stall."
 
@@ -399,14 +410,11 @@ label saki_sc5:
 
     Saki "You were not!"
 
-    show saki sad_annoyed
-    with dissolve
-
     Saki "Besides, it serves you right for not helping to set it up."
 
     "The elevator doors chime and open, disgorging a small handful of students."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     "Saki and Chisato step in after the way is clear, Chisato raising her eyebrow towards me as if to beckon me inside."
@@ -415,17 +423,25 @@ label saki_sc5:
 
     "I do feel a little guilty using the elevator when I'm perfectly capable of walking, but not enough to prevent me from doing so."
 
-    Saki "Doing anything for lunch?"
+    show saki smileclosed 
+    with dissolve
 
-    #"Saki asks as the elevator starts to move."
+    Saki "Doing anything for lunch?"
 
     Hisao "I was, but that fell through. Why do you ask?"
 
+    show chisato happy
+    with dissolve
+
     Chi "We were on the way to the cafeteria."
 
-    #"Chisato answers, leaning back against the wall and lightly yawning."
+    show chisato smile
+    with dissolve
 
     Chi "You're welcome to come with."
+
+    show saki slightsmile
+    with dissolve
 
     "I don't see any reason to object, and am about to tell the two of them when the elevator comes to a halt."
 
@@ -441,9 +457,15 @@ label saki_sc5:
 
     "He scans our group, the general look of boredom and disinterest changing to a scowl of disapproval for a fraction of a second when his eyes rest on Saki."
 
-    Chi "Hey, Maeda."
+    show saki neutral
+    with dissolve
+    
+    show chisato neutral
+    with dissolve
 
-    #"Chisato says, causing my brain to click."
+    stop music fadeout 1.0
+
+    Chi "Hey, Maeda."
 
     "Maeda, that was it. Takeshi? Takashi? I can't remember his first name. He sits on the other side of Shizune."
 
@@ -474,9 +496,13 @@ label saki_sc5:
     "Even though we're out of the elevator, neither Saki nor Chisato seem to feel like striking up any conversation, and I just tag along feeling awkward."
 
     scene school_cafeteria
-    show saki slight_smile at tworight
-    show lilly basic_displeased at twoleft
     with dissolve
+
+    show saki slightsmile at tworightsaki
+    show chisato smile at twoleft
+    with dissolve
+
+    play music school_days fadein 2.0
 
     "I'm actually relieved when we step into the cafeteria and manage to order our food."
 
@@ -491,10 +517,16 @@ label saki_sc5:
 
     Hisao "I've seen him in class before, but I've never really spoken to him. He sure seemed to have a problem with you though."
 
+    show chisato neutral
+    with dissolve
+    
     Chi "Yeah..."
 
     "Chisato chimes in, hoisting her bag up to the seat beside her and withdrawing what looks to be a small leather case."
 
+    show chisato laugh
+    with dissolve
+    
     Chi "Ex-boyfriends tend to do that."
 
     show saki serious
@@ -502,11 +534,19 @@ label saki_sc5:
 
     Saki "Chisato..."
 
+    show chisato smile
+    with dissolve
+
     Chi "What? It's not like it was a secret."
+
+    show chisato laugh
+    show saki determined
+    with dissolve
 
     "While Saki pinches the bridge of her nose, Chisato places the parcel on the table and opens the flap, revealing an array of instruments."
 
     show saki neutral
+    show chisato neutral
     with dissolve
 
     "As with the music at the festival yesterday, there's something vaguely familiar about them, even though I can't remember ever seeing them before."
@@ -520,11 +560,11 @@ label saki_sc5:
     "More interesting to me than that though, is what the two of them just said."
 
     Hisao "Excuse me?"
+    
+    Hisao "That guy's your ex?"
 
     show saki sad_annoyed
     with dissolve
-    
-    Hisao "That guy's your ex?"
 
     "Saki shoots me a dark scowl before taking another bite of her apple, this one a bit more... vicious."
 
@@ -543,9 +583,13 @@ label saki_sc5:
 
     Saki "Yeah..."
 
-    #"Saki says in a regretful tone after swallowing her mouthful of food."
+    show saki neutral
+    with dissolve
 
     Saki "Not one of my better ideas."
+
+    show chisato sad_annoyed
+    with dissolve   
 
     Chi "Hey, it's not like it's your fault he turned into an asshole when you broke up."
 
@@ -561,6 +605,7 @@ label saki_sc5:
     Saki "It's no big deal, I met him in the art club first year, we dated for a few months, it didn't work out, he's been pissed at me ever since and now I am hungry and I am done talking about Maeda."
 
     show saki neutral
+    show chisato neutral
     with dissolve
 
     Chi "He's really not all that bad. He's probably just a bit grumpier than usual from his surgery. You think he'd be happier since he's waited so long for it."
@@ -568,8 +613,6 @@ label saki_sc5:
     "She plugs the strip into the top of the meter, which starts to beep."
 
     Hisao "What type of surgery did he have?"
-
-    #"I ask, staring at my own sandwich and deciding to try it."
 
     Chi "He had a cochlear implant put in a few weeks before you transferred in. It was supposed to help with his tinnitus."
 
@@ -585,15 +628,24 @@ label saki_sc5:
     
     Chi "One of the guys in our class has one. It's pretty neat, actually. It's like an artificial ear that that gets implanted under the skin and there's a headset that goes with it."
 
+    show saki determined
+    with dissolve
+    
     Saki "How are things going with you and Mitsuru, by the way?"
 
     "Saki asks, her voice streaked with irritation that we're still discussing an unpleasant topic for her. The smile she gives her friend doesn't reach her eyes."
 
+    show chisato smileclosed
+    with dissolve
+    
     Chi "Quite well actually, thank you for asking."
 
     "So much for that diversionary tactic."
 
     Hisao "Oh, hey, Saki. You said last night you had a fishbowl in your room, right?"
+
+    show saki slightsmile
+    with dissolve
 
     Saki "Mhm..."
 
@@ -603,58 +655,69 @@ label saki_sc5:
 
     #"She swallows quickly before answering."
 
+    show saki surprised
+    with dissolve
+
     # Missing surprise expression
     Saki "Oh gosh, I was so tired at the end of the night I didn't really think about that... how much time do we have left for lunch?"
 
-    #"I look at my watch."
-
     Hisao "About thirty minutes."
 
-    #"Saki does a quick calculation in her head."
-
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     Saki "Tell you what. I have some extra stuff in my dorm room you can have. I'll go back to grab it now, and then we can meet this evening so I can give it to you?"
 
     Hisao "Can't we just do it after classes get out?"
 
-    #"She shakes her head."
+    show saki tired
+    with dissolve
 
     Saki "After our last period I have to go straight to the music room. We're having some sort of meeting about the festival, and then we're going down into town."
 
     Hisao "Ah."
 
+    show chisato smile
+    with dissolve
+
     Chi "Need help?"
 
-    #"Chisato asks, finally picking up her own sandwich."
-
-    #"Saki waves her off dismissively as she positions her cane to brace herself."
-
-    show saki slight_smile
+    show saki neutral
     with dissolve
 
     Saki "Nah, I'll be fine. I need the exercise anyway. I didn't wake up in time to get my swim in this morning."
 
     "She swings her legs out from under the table and stands up, grabbing the remains of her sandwich in her free hand."
 
+    show saki slightsmileclosed
+    with dissolve
+
     Saki "Can you take care of the tray for me?"
 
-    #"She asks."
+    show chisato happy
+    with dissolve
 
     Chi "No problem."
 
-    #"Chisato answers, and gives a little wave."
+    hide saki
+    with dissolve
 
     "Saki gives a short bow and turns to leave. I watch her as she moves through the room, a little unsteady on her feet but more than capable of keeping a fairly good clip."
 
+    show chisato smile at center
+    with easeinleft
+    
     Hisao "I have no idea how she does it. How can she have that much energy? I barely made it to class today."
 
-    #"Chisato laughs."
+    show chisato smileclosed
+    with dissolve
 
     Chi "She's always like that. She doesn't let much slow her down."
 
     "She takes a quick drink from her glass before continuing."
+
+    show chisato smile
+    with dissolve
 
     Chi "Me, I was up a lot later and I didn't eat much. What's your excuse?"
 
@@ -664,9 +727,15 @@ label saki_sc5:
 
     # "This only causes Chisato to laugh even harder."
 
+    show chisato laugh
+    with dissolve
+
     Chi "Yeah, it can be exhausting. But you had a good time yesterday, right?"
 
     Hisao "I did. Seems like it was just what I needed, honestly."
+
+    show chisato smile
+    with dissolve
 
     Chi "Good! By the way, thanks for keeping her company yesterday. I wanted to swing by earlier but there was just so much stuff that had to be done and nothing was going right."
 
@@ -680,15 +749,16 @@ label saki_sc5:
 
     Hisao "So, you're diabetic, right? You just tested your blood sugar?"
 
-    Hisao "Mhmm."
-
-    "She affirms, chewing."
+    Chi "Mhmm."
 
     Hisao "I thought whenever you did that, you had to inject yourself with insulin."
 
-    "I start to say, but as soon as I finish that sentence I see Chisato shaking her head as she swallows."
+    # "I start to say, but as soon as I finish that sentence I see Chisato shaking her head as she swallows."
 
-    Hisao "Not me, I don't have to do that. I have something a bit more direct."
+    show chisato neutral
+    with dissolve
+
+    Chi "Not me, I don't have to do that. I have something a bit more direct."
 
     "She leans back in the chair and turns sideways, lifting up her shirt above the top of her skirt."
 
@@ -698,137 +768,135 @@ label saki_sc5:
 
     "Now that I know what to look for, I can see the bulge it makes."
 
-    Hisao "Insulin pump."
+    show chisato smileclosed
+    with dissolve
 
-    "She explains."
+    Chi "Insulin pump. All I have to do is hit a button or two on it and it does all that for me."
 
-    Hisao "All I have to do is hit a button or two on it and it does all that for me."
+    # "She pats her side for emphasis."
 
-    "She pats her side for emphasis."
-
-    Hisao "It's a lot easier than sticking myself with a needle every time. Less painful too. I only need to put in a new needle every few days."
+    Chi "It's a lot easier than sticking myself with a needle every time. Less painful too. I only need to put in a new needle every few days."
 
     Hisao "I thought diabetes had to do with what you ate."
 
-    "I comment, wracking my brain for everything I know about diabetes, which admittedly isn't much."
+    # "I comment, wracking my brain for everything I know about diabetes, which admittedly isn't much."
 
-    Hisao "Sometimes, but that's usually something with type two diabetics. I'm type one."
+    show chisato smile
+    with dissolve
 
-    "She explains."
+    Chi "Sometimes, but that's usually something with type two diabetics. I'm type one."
 
     Hisao "I didn't even know there was more than one type."
 
-    Hisao "Most people don't."
+    show chisato neutral
+    with dissolve
 
-    "She says, taking another quick sip of her drink."
+    Chi "Most people don't. Type one diabetics don't produce insulin, so that's why I need the pump. Type two diabetics make it but build up resistance to it. Type one is pretty rare."
 
-    Hisao "Type one diabetics don't produce insulin, so that's why I need the pump. Type two diabetics make it but build up resistance to it. Type one is pretty rare."
+    "The memories of the defibrillators along the walls along with remembering the term 'diabetic coma' prompts my next question."
 
-    "The memories of the defibrillators along the walls along with remembering the ter"
+    Hisao "So if something, uh, goes wrong, I guess... what are the people around you supposed to do?"
 
-    Hisao "diabetic coma"
+    show chisato laugh
+    with dissolve
 
-    "Prompts my next question."
+    Chi "Force feed me syrup."
 
-    Hisao "So if something, uh, goes wrong, I guess...what are the people around you supposed to do?"
+    # "She answers, in such a straight tone of voice that I must look stunned."
 
-    Hisao "Force feed me syrup."
+    show chisato happy
+    with dissolve
 
-    "She answers, in such a straight tone of voice that I must look stunned."
-
-    Hisao "No, seriously!"
-
-    "She continues, insisting."
-
-    Hisao "The only thing that can really go wrong like that is me passing out because I didn't get enough to eat. So I need sugar. Well, I guess I could always get a bad batch of insulin or something could go wrong with the pump, but I'd notice before it got that bad. That only happened once."
+    Chi "No, seriously! The only thing that can really go wrong like that is me passing out because I didn't get enough to eat. So I need sugar."
+    
+    show chisato neutral
+    with dissolve
+    
+    Chi "Well, I guess I could always get a bad batch of insulin or something could go wrong with the pump, but I'd notice before it got that bad. That only happened once."
 
     Hisao "Seems like a lot to keep track of."
 
-    Hisao "You get used to it. I mean, don't you take medications or vitamins or something?"
+    show chisato smile
+    with dissolve
+
+    Chi "You get used to it. I mean, don't you take medications or vitamins or something?"
 
     Hisao "So many that I'm amazed I don't sound like a baby rattle when I walk."
 
-    "I concede with a sigh."
+    # "I concede with a sigh."
 
-    "Chisato laughs and continues to eat."
+    # "Chisato laughs and continues to eat."
 
-    "We make some small talk between various food items, and the rest of the lunch period passes by quickly."
+    "We make some small talk between various food items, and the rest of the lunch period passes by quickly. We deposit our trash in the can, placing our trays - and Saki's - on the small counter next to it."
 
-    "We deposit our trash in the can, placing our trays - and Saki's - on the small counter next to it."
+    scene school_lobby
+    show chisato happy
+    with dissolve
 
-    Hisao "You know."
-
-    "Chisato says as we make our way back out of the cafeteria and back into the hallway"
-
-    Hisao "We're going into town today, but Saki and I were going to go into the city later this week. We had a few things to do, and I think she needed to pick up some things for her fish tank. You want to come with?"
+    Chi "You know. We're going into town today, but Saki and I were going to go into the city later this week. We had a few things to do, and I think she needed to pick up some things for her fish tank. You want to come with?"
 
     Hisao "Huh, I hadn't thought of that. I just assumed I could get what I needed down in town."
 
-    Hisao "Nope. The Aura Mart sells some cat and dog food, but nothing for fish. You have to go to the city for that."
+    show chisato smileclosed
+    with dissolve
 
-    "Well, it could be a nice chance to explore."
+    Chi "Nope. The Aura Mart sells some cat and dog food, but nothing for fish. You have to go to the city for that."
 
-    "And besides, I don't think I would object to spending some more time with these two."
-
-    "I enjoyed spending much of the first week and festival around them, after all."
+    "Well, it could be a nice chance to explore. And besides, I don't think I would object to spending some more time with these two. I enjoyed spending much of the first week and festival around them, after all."
 
     Hisao "Alright. Just let me know what day."
 
     "It's interesting to analyze the strange mix of emotions that flood through me when I say that."
 
-    "I'm surprised that I said it in the first place, as I've always tended to be a little introverted."
+    "I'm surprised that I said it in the first place, as I've always tended to be a little introverted. There's a feeling of relief that I said it, and also a realization I genuinely am looking forward to it."
 
-    "There's a feeling of relief that I said it, and also a realization I genuinely am looking forward to it."
+    "I've always been the type of person that has to focus on something in the future to keep me oriented. It can be something as far out as Christmas, or something as soon as the next day. And now that I have something happening in a few days, getting to that point is all the much easier."
 
-    "I've always been the type of person that has to focus on something in the future to keep me oriented."
-
-    "It can be something as far out as Christmas, or something as soon as the next day."
-
-    "And now that I have something happening in a few days, getting to that point is all the much easier."
-
-    "That's one of the things that just absolutely crushed me in the hospital."
-
-    "There were milestones in my recovery, for sure...but it can be hard to appreciate them in the moment."
+    "That's one of the things that just absolutely crushed me in the hospital. There were milestones in my recovery, for sure... but it can be hard to appreciate them in the moment."
 
     "I think the only thing I ever really looked forward to in the hospital was the meatloaf on Thursdays."
-
+    
     "I push those thoughts out of my head to save both my sanity and my gag reflex."
 
-    Hisao "We'll let you know when we figure it out!"
+    show chisato happy
+    with dissolve
+    
+    Chi "We'll let you know when we figure it out!"
 
     "Chisato says cheerily, starting to pick up her pace to outdistance my leisurely one."
 
-    "From the speed at which she moves, it's clear she wants to make one or two more stops before going back to class."
+    "From the speed at which she moves, it's clear she wants to make one or two more stops before going back to class. I watch her retreating back, my eyes drawn to the slight bump at her right hip."
 
-    "I watch her retreating back, my eyes drawn to the slight bump at her right hip."
+    show chisato smile
+    with dissolve
+    
+    Chi "Oh!"
 
-    Hisao "Oh!"
+    # "She starts, turning around to face me after a few steps, while still continuing in the same direction."
 
-    "She starts, turning around to face me after a few steps, while still continuing in the same direction."
+    show chisato laugh
+    with dissolve
 
-    Hisao "Don't keep Saki too long today."
+    Chi "Don't keep Saki too long today."
 
     "She gives me a wink."
 
     Hisao "She's only giving me a bag of stuff, how long could that take?"
 
-    Hisao "Hmmm, who knows?"
+    show chisato smileclosed
+    with dissolve
 
-    "She answers, flashing me a sly grin and lowering her voice."
+    Chi "Hmmm, who knows? Maybe she'll want to help you set it up."
 
-    Hisao "Maybe she'll want to help you set it up."
+    show chisato laugh
+    with dissolve
 
-    "I stop and just stare at Chisato."
+    "I stop and just stare at Chisato. My reaction seems to be the one she wanted to see, because she winks again and turns away with another laugh. She practically jogs down the hallway and turns at the end of it, leaving me standing there rubbing by temples."
 
-    "My reaction seems to be the one she wanted to see, because she winks again and turns away with another laugh."
-
-    "She practically jogs down the hallway and turns at the end of it, leaving me standing there rubbing by temples."
-
-    Hisao "Great."
-
-    "I mutter to myself."
-
-    Hisao "Here we go again."
+    hide chisato
+    with dissolve
+    
+    Hisao "Great. Here we go again."
 
     "It seems obvious that both Chisato and Saki like to tease everyone, including each other."
 
@@ -838,13 +906,13 @@ label saki_sc5:
 
     "And yet, as I reach the staircase and start to make my ascent to my classroom, that strange mix of apprehension and excitement doesn't exactly get weaker after what Chisato said."
 
-    "Pop quiz tomorrow."
-
-    "Focus on that instead."
-
-    "Study for that tonight."
+    "Pop quiz tomorrow. Focus on that instead. Study for that tonight."
 
     "And if that doesn't work, there's always a cold shower."
+
+    stop music
+
+    call timeskip
 
     jump saki_sc6
 

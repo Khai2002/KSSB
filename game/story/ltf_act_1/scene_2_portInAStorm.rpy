@@ -261,7 +261,7 @@ label saki_sc2:
 
     "As soon as I enter the hallway, I let out a breath I hadn't realized I'd been holding. Saki and I manage to get a few steps down the hall before I can hear Misha and Lilly arguing again."
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     Hisao "Thank you."
@@ -306,7 +306,7 @@ label saki_sc2:
 
     
     scene school_classroomart
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     play music everyday_fantasy fadein 2.0
@@ -387,14 +387,14 @@ label saki_sc2:
 
     Hisao "Is this it?"
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "Looks like it."
 
     #"I wrap my arms around it, hoisting it out."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     "She reaches over as I set the box down and pulls the lid off, revealing a deep stack of thick cardstock cut into a variety of shapes."
@@ -410,7 +410,7 @@ label saki_sc2:
 
     Hisao "Wait a minute, you needed me to carry just this?"
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "Yeah. You don't expect me to carry something heavy that far either, do you?"
@@ -443,7 +443,7 @@ label saki_sc2:
     "I realize my smile has never quite left my face since I started laughing. 
     I was never really one for witty banter even before my heart attack, and the hospital pretty much killed whatever knack I had for it."
     
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     "This conversation, this short exchange, however... it's something I'm grateful for."
@@ -457,7 +457,7 @@ label saki_sc2:
 
     "I bow gravely for greater effect."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "That's kind of a cute thing of you to say, but being too cute has its drawbacks too."
@@ -467,7 +467,7 @@ label saki_sc2:
     #"I say, lifting my eyes to look up at hers, those playful sparks dancing in their amber depths."
 
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "People might start to take advantage of you if you make it look that easy."
@@ -488,7 +488,7 @@ label saki_sc2:
 
     #"She shoulders open the door and holds it with her foot for me, given that my hands are full."
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     Saki "But, if it makes you feel better, when you agreed to help me I decided I'd treat you to breakfast this morning."
@@ -496,7 +496,7 @@ label saki_sc2:
     stop music fadeout 2.0
 
     scene school_hallway3
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     "When we leave the art room I no longer hear any arguments coming from my classroom, so we turn towards the center of the building."
@@ -511,7 +511,7 @@ label saki_sc2:
 
     Hisao "Um... I just... remembered you taking the stairs earlier."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "Oh, climbing stairs is easy. Going down them though, that can be dangerous. Especially with both hands full."
@@ -645,7 +645,7 @@ label saki_sc2:
 
     "Waving, she starts to lightly jog over to meet us."
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     Chi "Saki! What are you doing here so early?"
@@ -661,7 +661,7 @@ label saki_sc2:
 
     Chi "Oh!"
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     "Her green eyes opening wide as she seems to notice me for the first time."
@@ -678,14 +678,14 @@ label saki_sc2:
 
     Chi "So this is Hisao Nakai?"
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     #"Saki just gives a slight nod with that knowing smile of hers and Chisato gives me a coy look."
 
     "Oh, great. What exactly have the two of them been talking about? I never know how to react in situations like this."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Hisao "So... Saki's mentioned me, has she?"
@@ -705,7 +705,7 @@ label saki_sc2:
 
     Chi "Sure!"
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     "Chisato reaches to take both the posterboard Saki has and the box I'm carrying and easily scoops them up in her arms."
@@ -738,12 +738,12 @@ label saki_sc2:
 
     Saki "I didn't say anything except that you were a new student who helped me out the other day. That's all. I swear!"
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Hisao "I don't think I believe you. But I don't think I'll be able to prove it."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve 
 
     Saki "Oh come on, don't be like that. Besides, Chisato saved us some time. Now we can go get breakfast."
@@ -754,7 +754,7 @@ label saki_sc2:
 
     Hisao "Where to? The cafeteria?"
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "There's no place else, is there?"

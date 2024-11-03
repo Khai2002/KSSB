@@ -1,24 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/story/ltf_act_2/scene_10_imFeelingLucky.rpy", line 42, in script
-    saki "{i}Out of the hospital.{/i}"
-Exception: Sayer 'saki' is not defined.
+  File "game/story/ltf_act_1/scene_4_electricDaisiesPart2.rpy", line 423, in script
+    with test_move
+  File "game/story/ltf_act_1/scene_4_electricDaisiesPart2.rpy", line 423, in <module>
+    with test_move
+NameError: name 'test_move' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/story/ltf_act_2/scene_10_imFeelingLucky.rpy", line 42, in script
-    saki "{i}Out of the hospital.{/i}"
-  File "E:\renpy-8.0.3-sdk\renpy\ast.py", line 2560, in execute
-    Say.execute(self)
-  File "E:\renpy-8.0.3-sdk\renpy\ast.py", line 575, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "E:\renpy-8.0.3-sdk\renpy\ast.py", line 464, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'saki' is not defined.
+  File "game/story/ltf_act_1/scene_4_electricDaisiesPart2.rpy", line 423, in script
+    with test_move
+  File "E:\renpy-8.0.3-sdk\renpy\ast.py", line 1356, in execute
+    trans = renpy.python.py_eval(self.expr)
+  File "E:\renpy-8.0.3-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "E:\renpy-8.0.3-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/story/ltf_act_1/scene_4_electricDaisiesPart2.rpy", line 423, in <module>
+    with test_move
+NameError: name 'test_move' is not defined
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.3.24061702
 Katawa Shoujo Stories Beyond 1.0
-Tue Sep  3 22:20:56 2024
+Mon Oct 21 15:10:17 2024

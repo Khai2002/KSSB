@@ -201,7 +201,7 @@ label saki_sc14:
 
     hide rin 
 
-    show saki basic_smile2_close at tworight
+    show saki smile2_close at tworight
     with dissolve
 
     # show rin basic_awayabsent

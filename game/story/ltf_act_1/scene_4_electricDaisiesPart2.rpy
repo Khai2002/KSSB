@@ -11,7 +11,7 @@ label saki_sc4:
     "I can tell we're getting closer from the smells permeating the air and the increasing number of people we see carrying plates of food."
 
     scene school_stalls2
-    show saki basic_smile
+    show saki smile1
     with dissolve
 
     play sound crowd_outdoors volume 0.2 loop
@@ -30,7 +30,7 @@ label saki_sc4:
 
     #"I ask, idly craning my neck around the people in front of us to scan the menus."
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     Saki "We're all doing a few songs together first, then a few people are doing their own thing."
@@ -50,7 +50,7 @@ label saki_sc4:
 
     Hisao "Oh thank god. I thought you were going to ask me to move a piano next."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "Only at the end of the year. That thing's a bitch to move but we do it for the concert we put on. Makes it more authentic, I guess. At least it's on wheels..."
@@ -72,17 +72,17 @@ label saki_sc4:
 
     #"I ponder aloud, stepping forward again as the person in front of us wanders off with a bowl of soup."
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     Saki "Could be."
 
     "We found ourselves at the front of the line as Lilly turns in our direction to address us without stepping up to the order window."
 
+    hide saki
     
-    show saki basic_smile2 at tworight:
-        xoffset 150
-    with easeinleft
+    show saki smile2 at tworightsaki
+    with easefromcenter
     show lilly basic_displeased at twoleft
     with dissolve
 
@@ -96,7 +96,7 @@ label saki_sc4:
     "She's counting off on her fingers, her eyebrows knitting in concentration. Finally, she turns back towards us."
 
     show lilly basic_smile
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Lilly "How can I help you?"
@@ -105,7 +105,7 @@ label saki_sc4:
 
     Hisao "Hey Lilly!"
 
-    "I say, both as a way of greeting and a way to let her know it's me."
+    # "I say, both as a way of greeting and a way to let her know it's me."
 
     #"Her face lights up in mild surprise."
 
@@ -143,7 +143,7 @@ label saki_sc4:
     Hisao "Wait, what?"
 
     show lilly basic_giggle
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     #"I start to protest but before I can finish my objection, I hear Lilly laughing."
@@ -191,14 +191,14 @@ label saki_sc4:
 
     "When I reach to pull out my wallet, Saki stops me with a quick touch of her fingertips to my wrist."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "I'll take care of it. You helped set up the stage, so I owe you."
 
     Hisao "You sure?"
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "Yeah, absolutely. It's the least I can do."
@@ -216,7 +216,7 @@ label saki_sc4:
 
     "She counts out the change in a similar fashion, then holds it out in her hand expectantly."
 
-    show saki slight_smile
+    show saki slightsmile
     show lilly basic_smile
     with dissolve
 
@@ -295,7 +295,7 @@ label saki_sc4:
     Lilly "I'll try, if I get a chance. Thank you for your concern."
 
     scene school_gardens2
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     "I turn away and make my way back to where Saki and I are sitting."
@@ -349,7 +349,7 @@ label saki_sc4:
 
     Saki "Oh, I'll get that later. Right now I just need the energy."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve 
 
     "The rest of the meal passes without incident with light conversation, both of us too focused on the food to do much more than eat."
@@ -364,7 +364,7 @@ label saki_sc4:
 
     Hisao "How much time do we have?"
 
-    show saki basic_smile
+    show saki smile1
     with dissolve
 
     "She glances around to make sure she hasn't forgotten anything, then looks at her watch again."
@@ -375,7 +375,7 @@ label saki_sc4:
 
     scene school_gardens
     show crowd
-    show saki basic_smile
+    show saki smile1
     with dissolve 
     
     play sound crowd_outdoors volume 0.3 loop
@@ -385,7 +385,7 @@ label saki_sc4:
 
     "The crush of people here is as large as I've seen, this main thoroughfare between all of Yamaku's different buildings being shown off to parents and other guests."
 
-    show saki basic_smile2_close
+    show saki smile2_close
     with Dissolve(1.0)
 
     "Saki moves a bit closer to me, pressing her side into mine."
@@ -416,8 +416,14 @@ label saki_sc4:
     show saki sad_annoyed
     with dissolve
 
-
     Saki "Where the hell were you?"
+
+    hide saki
+
+    show saki sad_annoyed at tworightsaki
+    with easefromcenter
+    show chisato sad at twoleft
+    with dissolve
 
     #"Saki demands by way of greeting as soon as Chisato runs up to us, bowing apologetically."
 
@@ -448,12 +454,18 @@ label saki_sc4:
 
     #"Chisato turns to me, acknowledging me for the first time."
 
+    show chisato smile
+    with dissolve
+
     Chi "Oh! Yes, sit anywhere. We're supposed to start in about ten minutes."
 
-    show saki slight_smile
+    show saki determined
     with dissolve
 
     "Saki finally manages to snap open the case, looking up at me in triumph."
+
+    show saki pout1
+    with dissolve
 
     Saki "Hisao... are you going to stay and watch?"
 
@@ -467,7 +479,7 @@ label saki_sc4:
 
     Hisao "Sure. I saw how hard you were working all week, so I'm looking forward to seeing it."
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     "Her eyes brighten at my answer, and she moves the case onto the bench next to her."
@@ -476,13 +488,16 @@ label saki_sc4:
 
     Hisao "What is it?"
 
+    show saki slightsmile
+    with dissolve
+
     Saki "Can you hold on to my cane for me? I would normally leave it here, but..."
 
     "I see the chaos around me as everyone is setting up their instruments, some nearly as large as they are. It could get very easy to lose something like a cane or have it buried under all the confusion."
 
     Hisao "I can do that, but don't you need it for the stairs?"
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "It's only a few steps. I'll be fine."
@@ -491,14 +506,15 @@ label saki_sc4:
 
     Hisao "I guess I'll see you after, then?"
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "That works."
 
     #"Saki says, using her now-free hands to pull her violin out of its case."
 
-    show saki basic_smile2
+    show saki happy
+    show chisato smileclosed
     with dissolve
 
     Saki "We have a few songs to play with the band, and then Chisato and I play something, and then I can get off the stage and sit with you."
@@ -508,6 +524,7 @@ label saki_sc4:
     Hisao "Okay then. Good luck!"
 
     hide saki
+    hide chisato
     with dissolve
 
     "Saki breaks her attention from setting up her violin to smile and nod back briefly, but then immediately turns and starts to talk to a bandmate on her left."
@@ -715,7 +732,14 @@ label saki_sc4:
 
     "I get up and move by the stairs to meet them and give Saki her cane back."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
+    with dissolve
+
+    hide saki
+
+    show saki slightsmile_aww at tworightsaki
+    with easefromcenter
+    show chisato smile at twoleft
     with dissolve
     
     Hisao "You two were amazing!"
@@ -734,7 +758,7 @@ label saki_sc4:
 
     "Despite her exhaustion, the light never leaves her eyes as she looks into mine."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "Pachelbel, it's called 'Canon in D.' It's one of those songs that has probably a hundred different versions. 
@@ -743,6 +767,7 @@ label saki_sc4:
     Hisao "Ms. Sakamoto mentioned it was an 'original twist.' Did you come up with the changes yourselves? That's pretty incredible."
 
     show saki neutral
+    show chisato neutral
     with dissolve
 
     "Saki's expression loses just a bit of its cheerfulness, and I don't think it's just because of how tired she is."
@@ -774,14 +799,20 @@ label saki_sc4:
 
     Saki "Yeah, I'm fine. Just really tired. That took more out of me than I thought it would. It's been a really exhausting week."
 
+    show chisato smile
+    with dissolve
+
     Chi "Tell you what, if you want to get out of here, I'll let Ms. Sakamoto know what's going on. I'll even take care of the booth too."
 
-    show saki sad_annoyed
+    show saki pout1_noblush
     with dissolve
 
     Saki "You should have been doing that anyway."
 
     Saki "Besides, I thought you had to run the sound system?"
+
+    show chisato laugh
+    with dissolve
 
     Chi "Oh, that's pretty much done with now. After our group, there's nothing else scheduled until the fireworks."
 
@@ -794,11 +825,14 @@ label saki_sc4:
 
     "Fireworks aren't cheap, and the fact they would have them at a school festival shows that Yamaku must have some fairly serious financial backers."
 
+    show chisato smile
+    with dissolve
+
     Chi "Mm-hmm. They have them every year. I heard that this year's are supposed to be pretty good. Are you going to be able to stick around and see?"
 
     Hisao "I'm not sure."
 
-    "Saki catches me glancing at her, leaving the decision up to how she's feeling."
+    # "Saki catches me glancing at her, leaving the decision up to how she's feeling."
 
     show saki sleepy
     with dissolve
@@ -807,7 +841,10 @@ label saki_sc4:
 
     #"Chisato relents when she sees how tired her friend is."
 
-    Chi "Alright, I'll handle things here. Go get some... sleep,"
+    show chisato happy
+    with dissolve
+
+    Chi "Alright, I'll handle things here. Go get some... sleep."
 
     "She winks at me with a mischievous tone to her voice. Now it's my turn to shake my head and sigh."
 
@@ -815,7 +852,9 @@ label saki_sc4:
 
     "It's a simple matter to walk off to the side, excusing ourselves from the vicinity without drawing too much attention."
 
-    show saki neutral
+    scene school_stalls2
+    show crowd
+    show saki tired at center
     with dissolve
 
     "Saki's leaning a bit heavier on her cane, her steps not quite as nimble as they were earlier."
@@ -829,7 +868,7 @@ label saki_sc4:
 
     scene school_stalls2_ss
     show crowd_ss
-    show saki slight_smile_ss
+    show saki slightsmile_ss
     with Dissolve(1.0)
 
     play music afternoon fadein 2.0
@@ -854,7 +893,7 @@ label saki_sc4:
 
     "Saki points beyond the stalls to one of the large open grassy fields between the footpaths. There's already a multitude of people laying out on blankets and sitting in chairs."
 
-    show saki slight_smile_closed_ss
+    show saki slightsmileclosed_ss
     with dissolve
 
     Saki "Come find me?"
@@ -872,14 +911,14 @@ label saki_sc4:
 
     Hisao "All they had left was apple and orange juice."
 
-    show saki slight_smile_ss_close
+    show saki slightsmile_close_ss
     with dissolve
 
     #"I say apologetically, sitting down on the grass next to Saki."
 
     "I offer both cans to her so she can choose which one she wants. She grabs the apple and eagerly pops the tab on it."
 
-    show saki slight_smile_closed_ss_close
+    show saki slightsmileclosed_close_ss
     with dissolve
 
     Saki "Thank you!"
@@ -893,7 +932,7 @@ label saki_sc4:
 
     #"She stretchs her legs out in front of her."
 
-    show saki slight_smile_ss_close
+    show saki slightsmile_close_ss
     with dissolve
 
     Saki "But this is the last year I'll get to see this, you know?"
@@ -902,7 +941,7 @@ label saki_sc4:
 
     "I'd spent so much time this last week trying to adjust that I'd never even considered that people might feel sad to know this was their last festival they might see."
 
-    show saki slight_smile_closed_ss_close
+    show saki slightsmileclosed_close_ss
     with dissolve
 
     "Saki lays out on the grass completely, placing her hands behind her head with a contented sigh."
@@ -988,7 +1027,7 @@ label saki_sc4:
     "How I asked that with a steady voice, I'll never know."
 
     scene school_courtyard_ni
-    show saki neutral_ni_close
+    show saki neutral_close_ni
     with dissolve
 
     "She props herself up on her elbows and looks into my eyes, a piercing stare that holds my gaze."
@@ -999,7 +1038,7 @@ label saki_sc4:
 
     "But unlike the other times this week where I've been caught in a taboo, I don't flinch away. My face might be growing hot, but I don't flinch away."
 
-    show saki slight_smile_ni_close
+    show saki slightsmile_close_ni
     with dissolve
 
     Saki "See? That wasn't so hard, was it?"
@@ -1011,17 +1050,17 @@ label saki_sc4:
 
     Hisao "Well, you were the one who went off on me earlier. I figured it would be safe to ask you. I didn't think you'd be upset if I did."
 
-    show saki smug2_ni_close
+    show saki smug2_close_ni
     with dissolve
 
     Saki "Oh please. I'm not that hypocritical."
 
-    show saki smug_ni_close
+    show saki smug_close_ni
     with dissolve
 
     Hisao "Hey, cut me some slack. I'm still learning here. About... all of this."
 
-    show saki serious_ni_close
+    show saki serious_close_ni
     with dissolve
 
     Saki "Excuse denied."
@@ -1030,14 +1069,14 @@ label saki_sc4:
 
     Saki "Sorry, but from now on you're no longer allowed to use that excuse."
 
-    show saki sad_ni_close
+    show saki sad_close_ni
     with dissolve
 
     Saki "Some people never stop using that excuse."
 
     "That one hits a little close to home, but our earlier conversation where she chewed me out helps me understand what she's implying."
 
-    show saki neutral_ni_close
+    show saki neutral_close_ni
     with dissolve
 
     Saki "I'm here because I have a degenerative disorder called 'spinocerebellar ataxia'."
@@ -1224,14 +1263,14 @@ label saki_sc4:
     Hisao "Is that it?"
 
     scene school_courtyard_ni
-    show saki slight_smile_closed_ni_close
+    show saki slightsmileclosed_close_ni
     with dissolve
 
     Saki "Pretty much."
 
     "Saki raises herself to a seated position and brushing some strands of grass off her arms."
 
-    show saki slight_smile_ni_close
+    show saki slightsmile_close_ni
     with dissolve
 
     Saki "After the fireworks, there's nothing else really planned for the rest of the night. Awesome way to end the festival though!"
@@ -1250,7 +1289,7 @@ label saki_sc4:
 
     Hisao "I'm pretty full, actually, and you already fell asleep on the grass."
 
-    show saki slight_smile_closed_ni_close
+    show saki slightsmileclosed_close_ni
     with dissolve
 
     Saki "I wasn't sleeping. I was resting my eyes."
@@ -1259,7 +1298,7 @@ label saki_sc4:
 
     Saki "Alright, you win."
 
-    show saki tired_ni_close
+    show saki tired_close_ni
     with dissolve
 
     Saki "Can we get going back to the dorms? I'm about to pass out."
@@ -1274,13 +1313,13 @@ label saki_sc4:
 
     "I don't think we're going to be able to swim upstream through that."
 
-    show saki determined_ni_close
+    show saki determined_close_ni
     with dissolve
 
     Saki "Here, this way."
 
     scene school_stalls2_ni
-    show saki slight_smile_ni_close
+    show saki slightsmile_close_ni
     with dissolve
 
     "Saki grabs my arm and leads us across the great lawn towards the back of some of the booths, then slips into one."
@@ -1289,7 +1328,7 @@ label saki_sc4:
 
     "Saki sits down in one of the empty chairs."
 
-    show saki slight_smile_closed_ni_close
+    show saki slightsmileclosed_close_ni
     with dissolve
 
     Saki "I figured this would be as good a place as any to rest for a while until people start to leave."
@@ -1302,9 +1341,17 @@ label saki_sc4:
 
     "Saki whacks the back of Chisato's leg with her cane playfully, causing her to jump in surprise."
 
+    hide saki
+
+    show saki slightsmileclosed_ni at tworightsaki
+    with easefromcenter
+
+    show chisato neutral_ni at twoleft
+    with dissolve
+
     Chi "What the? Where did you two come from? I thought you were going to go to sleep?"
 
-    show saki slight_smile_ni_close
+    show saki slightsmile_ni
     with dissolve
 
     Saki "Caught a second wind. We thought we'd hide here for a while."
@@ -1315,7 +1362,7 @@ label saki_sc4:
 
     Nori "Did you enjoy the fireworks?"
 
-    show saki happy_ni_close
+    show saki happy_ni 
     with dissolve
 
     Saki "Yeah, they were amazing this year."
@@ -1323,13 +1370,17 @@ label saki_sc4:
     hide saki
     with dissolve
 
+    show chisato neutral_ni at center
+    with easeinleft
+
     "While the two girls were talking among themselves, I walk up towards Chisato to get a better look at what she's doing."
 
     "She's scooping fish into the plastic cups from earlier as quickly as she can."
 
     Hisao "Need some help?"
 
-    #"Chisato shoots me a grateful look."
+    show chisato smile_ni
+    with dissolve
 
     Chi "Definitely. We've been giving these things away since the fireworks ended and we only have about a dozen left. I scoop, you lid?"
 
@@ -1338,6 +1389,9 @@ label saki_sc4:
     "She hands me a cup with a rather energetic occupant bouncing madly against the plastic. I take a lid from the stack sitting on the table and put it firmly in place."
 
     "Working quickly, we soon have all the rest of the tiny creatures taken care of."
+
+    hide chisato
+    with dissolve
 
     "Chisato yells out her offer again, and several people come by to take advantage of it. Some take only a single cup while others take two or three."
 
@@ -1348,7 +1402,7 @@ label saki_sc4:
     Saki "Here."
 
     # Add fish cup
-    show saki slight_smile_ni_close
+    show saki slightsmile_close_ni
     with dissolve
 
     "Saki calls from behind me, causing me to turn. She hands me one of the cups that was on the table."
@@ -1357,11 +1411,12 @@ label saki_sc4:
 
     "As I'm turning to get ready to hand him to someone who already has two, Saki stops me with a hand on my arm."
 
+    show saki smile2_close_ni
+    with dissolve
+
     Saki "No, keep him. It's a thank you present for all your help the last few days. He's yours."
 
-    "I'm a bit dumbfounded at this."
-
-    "I glance at the fish floating lazily in the glass, then hold him up to get a better look at him."
+    "I'm a bit dumbfounded at this. I glance at the fish floating lazily in the glass, then hold him up to get a better look at him."
 
     "He's one of the larger ones; a mottled thing with a gold back, cream belly, and black freckles all over."
 
@@ -1369,14 +1424,14 @@ label saki_sc4:
 
     #"Saki waves her hand dismissively."
 
-    show saki slight_smile_closed_ni_close
+    show saki slightsmileclosed_close_ni
     with dissolve
 
     Saki "I have a few in a tank in my room. As long as it's not something like you would see at the aquarium, you should be fine."
 
     Hisao "And they allow this?"
 
-    show saki determined_ni_close
+    show saki determined_close_ni
     with dissolve
 
     Saki "I'm sure they would."
@@ -1385,14 +1440,12 @@ label saki_sc4:
 
     "Noriko laughs, having heard the entire exchange. I just sigh again. I have the feeling I'm going to be doing that a lot in the future."
 
-    show saki slight_smile_ni_close
+    show saki slightsmile_close_ni
     with dissolve
 
     "After a few more minutes of idle talk, all the other goldfish are gone. Chisato dusts her hands off, and Noriko starts to unplug the lights."
 
     Saki "Are you ready?"
-
-    "Saki asks me, noticing the crowd has died down."
 
     "There's still a fair amount of people on the grounds, but not nearly as many as there were making their way home a little bit ago."
 
@@ -1408,21 +1461,19 @@ label saki_sc4:
 
     Chi "Eh, I deserved it. Don't worry about it. And yep, I got plenty. About to get a snack after we get done here."
 
-    show saki slight_smile_closed_ni_close
+    show saki slightsmileclosed_close_ni
     with dissolve
 
     Saki "Alright. See you two tomorrow."
 
     Chi "Thanks for your help, Hisao."
 
-    #"Chisato says over her shoulder, already intent on another task."
-
     Hisao "Anytime."
 
     "I answer automatically. Oh man. Why do I think I'll be eating those words?"
 
     scene school_gardens_ni
-    show saki slight_smile_ni_close
+    show saki slightsmile_close_ni
     with dissolve
 
     "And with that, Saki and I make our way back towards the dorms, tracing the same route we used earlier to get to the stage in the first place."
@@ -1441,19 +1492,19 @@ label saki_sc4:
 
     Hisao "I think after this week and after everything else, I really needed it."
 
-    show saki slight_smile_closed_ni_close
+    show saki slightsmileclosed_close_ni
     with dissolve
 
     Saki "Good."
 
     #"She answers, unable to hide the tiredness in her voice."
 
-    show saki pout1_ni_close
+    show saki pout1_close_ni
     with dissolve
 
     Saki "I'm glad. Hope you didn't mind spending most of it with me."
 
-    show saki pout2_ni_close
+    show saki pout2_close_ni
     with dissolve
 
     Hisao "Not at all. I had a good time."
@@ -1479,12 +1530,12 @@ label saki_sc4:
     "Mesmerizing is another good term for parts of it."
 
     scene school_dormext_full_ni
-    show saki pout2_ni_close
+    show saki pout2_close_ni
     with dissolve
 
     "I realize that I didn't just enjoy the music, or the food, or the fireworks, but I enjoyed pretty much every way I spent my time today."
 
-    show saki pout1_ni_close
+    show saki pout1_close_ni
     with dissolve
 
     "And who I spent that time with."
@@ -1493,14 +1544,14 @@ label saki_sc4:
 
     "We're in the courtyard before the dorms before I had even realized it."
 
-    show saki slight_smile_ni_close
+    show saki slightsmile_close_ni
     with dissolve
 
     Saki "Get a good night's sleep, okay?"
 
     Hisao "I should be saying that to you. You're the one who can barely stand up."
 
-    show saki slight_smile_closed_ni_close
+    show saki slightsmileclosed_close_ni
     with dissolve
 
     Saki "Hey, you're the new guy. Someone has to look out for you."
@@ -1513,16 +1564,22 @@ label saki_sc4:
 
     Hisao "Hey, Saki?"
 
-    show saki slight_smile_ni_close
+    show saki slightsmile_close_ni
     with dissolve
 
     "I manage after she takes a few steps. She stops and turns around to face me."
 
     Hisao "Thank you."
 
+    show saki smile2_close_ni
+    with dissolve
+
     "Thank you for what? Thank you for spending time with me today."
 
     "Thank you for playing that song. Thank you for being concerned about me."
+
+    show saki slightsmile_aww_close_ni
+    with dissolve
 
     "Thank you for reaching out to me this last week. Thank you for making me laugh."
 
@@ -1532,7 +1589,7 @@ label saki_sc4:
 
     "And I swear, after a brief moment when her face breaks into a warm smile, she's understood. All of that."
     
-    show saki slight_smile_closed_ni_close
+    show saki slightsmileclosed_close_ni
     with dissolve
 
     Saki "You're welcome."
@@ -1555,5 +1612,7 @@ label saki_sc4:
     "Can I do the same thing with Yamaku, in general? With my new life? Can I just stop being bitter about it for long enough to actually accept that this might be a good thing?"
 
     "I don't know the answer to that, but I know that I'm going to try."
+
+    call timeskip
 
     jump saki_sc5

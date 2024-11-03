@@ -87,7 +87,7 @@ label saki_sc8:
 
     "There's a brief moment when we all get close enough where we scrutinize each others' outfits."
 
-    show saki slight_smile_cas
+    show saki slightsmile_cas
     with dissolve
 
     stop music fadeout 0.5 
@@ -137,17 +137,17 @@ label saki_sc8:
 
     Hisao "Give me a break. Clothes shopping wasn't exactly on my list of priorities the last few months."
 
-    show saki slight_smile_cas
+    show saki slightsmile_cas
     with dissolve
 
     Saki "I don't know if I'd wear a sweater vest this time of year, but it does match your shirt and pants."
 
-    show saki slight_smile_cas_close
+    show saki slightsmile_cas_close
     with dissolve
 
     Saki "You should undo that top button though. It will make the whole thing look more casual and you should be able to breathe better too."
 
-    show saki slight_smile_cas
+    show saki slightsmile_cas
     with dissolve
 
     Hisao "I wasn't aware you were such a fashion expert."
@@ -192,7 +192,7 @@ label saki_sc8:
 
     Saki "Me neither."
 
-    show saki basic_smile_cas 
+    show saki smile1_cas 
     with dissolve
 
     Saki "but oh my god, that dress... "
@@ -220,7 +220,7 @@ label saki_sc8:
 
     "Saki punches her in the arm, Noriko giggles, but Mrs. Sakamoto lets out a full volume laugh."
 
-    show saki slight_smile_cas
+    show saki slightsmile_cas
     with dissolve
 
     Saka "So, you must be Hisao Nakai. Pleased to make your acquaintance. Miss Enomoto told me she wanted to bring a friend along today."

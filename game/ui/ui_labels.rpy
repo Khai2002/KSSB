@@ -4,7 +4,7 @@ label promo:
     with delayblinds
 
     scene suburb_konbiniext
-    show saki slight_smile_close at left
+    show saki slightsmile_close at left
     with dissolve
 
     show Sprites_for_Chisato
@@ -15,7 +15,7 @@ label promo:
 
     Kyle "With your Patreon support, we can commission more outfits for Saki, and sprites for Chisato and Noriko, and more CGs as well!"
 
-    show saki slight_smile_ss_close
+    show saki slightsmile_close_ss
     with dissolve
 
     Kyle "If you enjoy our project, please consider supporting Stories Beyond on Patreon. We'll try our best to deliver you the best quality mod we can offer!"

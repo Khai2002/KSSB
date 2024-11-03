@@ -71,7 +71,7 @@ label saki_sc9:
 
     "Saki says teasingly, but with a hint of concern."
 
-    show saki slight_smile_cas_close
+    show saki slightsmile_cas_close
     with dissolve
 
     Saki "You okay?"
@@ -158,12 +158,12 @@ label saki_sc9:
 
     "Saki's mood seems to become more positive as she juggles her cane and purse into comfortable positions."
 
-    show saki basic_smile_cas_close
+    show saki smile1_cas_close
     with dissolve
     
     "She reaches both of her hands out towards me; one empty, one holding her cane."
 
-    show saki basic_smile2_cas_close
+    show saki smile2_cas_close
     with dissolve
 
     Saki "Hey Hisao, can I borrow you for a second?"
@@ -259,7 +259,7 @@ label saki_sc9:
 
     Hisao "You okay?"
 
-    show saki slight_smile_cas_close
+    show saki slightsmile_cas_close
     with dissolve
 
     Saki "Yeah, I'm fine."
@@ -288,7 +288,7 @@ label saki_sc9:
 
     "She says, holding them out for me to inspect them, but I can't get a clear view of them draped over her arm."
 
-    show saki basic_smile2_cas_close
+    show saki smile2_cas_close
     with dissolve
 
     Saki "Noriko likes one, Chisato likes the other. Can you be our tiebreaker?"

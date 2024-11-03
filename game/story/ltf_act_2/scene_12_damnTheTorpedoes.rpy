@@ -13,13 +13,9 @@ label saki_sc12:
 
     "Through this whole week, the schedule has been the same."
 
-    "I wake up, I change, I come down to the pool."
+    "I wake up, I change, I come down to the pool. I swim for half an hour or so, shower, and then I go to class."
 
-    "I swim for half an hour or so, shower, and then I go to class."
-
-    "I have to admit that Nurse was right."
-
-    "Having a routine has helped me tremendously over the last week, and my body is finally adjusting to some sense of normalcy."
+    "I have to admit that Nurse was right. Having a routine has helped me tremendously over the last week, and my body is finally adjusting to some sense of normalcy."
 
     "Knowing what time I'm going to wake up and what I'm going to be doing has done wonders for my insomnia; I haven't had to take another dose of sleeping medication since the initial one Nurse gave me."
 
@@ -27,9 +23,7 @@ label saki_sc12:
 
     "I reach the edge, slap the concrete, and turn around, pushing off back towards the way I came."
 
-    "That whole day in itself was a blur, looking back on it."
-
-    "And not just because of what happened with Saki, but later that night when I was thinking about it."
+    "That whole day in itself was a blur, looking back on it. And not just because of what happened with Saki, but later that night when I was thinking about it."
 
     "In the shower that night, my mind was wandering all over the place, branching out from our earlier conversation into a countless number of meanings and possibilities."
 
@@ -45,11 +39,9 @@ label saki_sc12:
 
     "I've always been able to brute-force mental solutions, but try as I might, I couldn't quite grasp it, my mind elusively circling it like the water going down the drain."
 
-    "One lap down."
+    "One lap down. Going for two."
 
-    "Going for two."
-
-    "Nurse, Mutou, Saki, Emi...everyone I've met since I got here to Yamaku has been trying in their own way to tell me something that was pounding against me as relentlessly as the water beating down on my skin."
+    "Nurse, Mutou, Saki, Emi... everyone I've met since I got here to Yamaku has been trying in their own way to tell me something that was pounding against me as relentlessly as the water beating down on my skin."
 
     "Everyone has been trying to tell me not to treat the disabilities of others around me as an issue, or that it's only an issue if I choose to let it be one."
 
@@ -57,9 +49,7 @@ label saki_sc12:
 
     "When my thoughts replayed back to that first week, something popped into my head and it made it all click."
 
-    "It was the first time I met Rin."
-
-    "Rin never shied away from my condition; in fact, she asked me about it outright."
+    "It was the first time I met Rin. Rin never shied away from my condition; in fact, she asked me about it outright."
 
     "At the time, I was so shocked that someone who barely knew me would ask me about that, or that she saw no problem with doing so."
 
@@ -73,19 +63,11 @@ label saki_sc12:
 
     "Like anything else, it's just one more thing that fits onto the ladders of friendship that all of us are climbing."
 
-    "Everyone starts out with everybody else the same way."
-
-    "It begins with something simple, like a name."
-
-    "You place your foot on the bottom rung."
-
-    "A birthday, a phone number, the title of a favorite book or song; all helping you climb a little bit higher."
+    "Everyone starts out with everybody else the same way. It begins with something simple, like a name. Then a birthday, a phone number, the title of a favorite book or song; all helping you climb a little bit higher."
 
     "The further you climb, the more you learn about someone."
 
-    "Their hopes and their dreams."
-
-    "Their fears and their weaknesses."
+    "Their hopes and their dreams. Their fears and their weaknesses."
 
     "They also open up to you in ways that they never would if you were still at the bottom."
 
@@ -113,39 +95,27 @@ label saki_sc12:
 
     "When she said that she was too scared to come out and tell me about her ataxia, or the results of it..."
 
-    "I duck my head under the water, letting the coolness leech the heat from my face."
-
-    "I float there for a few seconds with my eyes closed, the feeling of weightlessness permeating through me."
+    "I duck my head under the water, letting the coolness leech the heat from my face. I float there for a few seconds with my eyes closed, the feeling of weightlessness permeating through me."
 
     "Something changed that day between us... which is why it's so confusing that the mood between us is like it didn't happen at all."
 
-    "After a few minutes on the floor, we stood up."
-
-    "I helped Saki into her chair, and after a few more, we left as simply as we came in."
+    "That day, after a few minutes on the floor, we stood up. I helped Saki into her chair, and after a few more, we left as simply as we came in."
 
     "It was like after that huge emotional outpouring that left both of us exhausted, there was a tension in the air neither one of us felt entirely comfortable with and that I couldn't seem to let go of, even after both of us left the room."
 
-    "Hence my mindset and subsequent epiphany in the shower."
-
-    "I haven't seen Saki much this last week."
+    "Hence my mindset and subsequent epiphany in the shower. I haven't seen Saki much this last week."
 
     "Most of the times we've gotten together the last few weeks have been a result of plans made at the pool or just randomly bumping into each other."
 
-    "With Saki's leg out of commission the former hasn't happened, and chance hasn't been on my side with the latter."
+    "With Saki's leg out of commission, the former hasn't happened, and chance hasn't been on my side with the latter."
 
     "I haven't seen her at lunch, and the three times I ran into her in the hallways, her body language showed that something serious was on her mind, prohibiting anything more but some small talk."
 
     "I've only seen Chisato once, and I haven't seen Noriko at all."
 
-    "My body reminds me with a sudden urgency that it needs air."
-
-    "My feet find the bottom of the pool and I stand, breaking the surface and taking in a lungful."
+    "My body reminds me with a sudden urgency that it needs air. My feet find the bottom of the pool and I stand, breaking the surface and taking in a lungful."
 
     "Shaking the water from my hair and ears, I hear a sound coming from the end of the room."
-
-    "Cli-chack."
-
-    "Cli-chack."
 
     "Cli-chack."
 
@@ -153,15 +123,9 @@ label saki_sc12:
 
     "Cli-chack."
 
-    "Cli-chack."
+    "I know I've heard that sound before. Are those... crutches?"
 
-    "Cli-chack."
-
-    "I know I've heard that sound before."
-
-    "Are those... crutches?"
-
-    "Three seconds later, my eyes go wide as Saki emerges from the small hallway clad in her black swimsuit."
+    "Three seconds later, my eyes go wide as Saki emerges from the small hallway clad in her swimsuit."
 
     "True to my guess, she's making her way with the help of a pair of crutches under each arm."
 
@@ -171,7 +135,7 @@ label saki_sc12:
 
     Hisao "Saki!"
 
-    "I say, greeting her with the relief I'm feeling at seeing her at the pool for the first time in a week."
+    # "I say, greeting her with the relief I'm feeling at seeing her at the pool for the first time in a week."
 
     "I'm rewarded with a smile that seems to be mirroring that same emotion."
 
@@ -179,7 +143,7 @@ label saki_sc12:
 
     Hisao "Of course, been here every day this week. Doctor's orders."
 
-    Saki "That's good,"
+    Saki "That's good."
 
     "Saki says, her features softening a bit."
 

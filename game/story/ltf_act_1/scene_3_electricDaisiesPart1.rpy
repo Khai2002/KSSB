@@ -5,6 +5,10 @@ label saki_sc3:
     scene school_dormhisao_blurred_ss
     with dissolve
 
+    show saki smile2 at tworightsaki
+    show chisato smile at twoleft
+    with dissolve
+
     play music daylight fadein 1.5
 
     "The alarm clock sears through my head with all the subtlety of a speeding train."
@@ -153,7 +157,7 @@ label saki_sc3:
 
     "I turn back towards the stall, the gap in humanity letting me get a clearer view of who's running it."
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
     
     "I see Saki rising to her feet, her lower body being blocked out by a very large fish tank at waist level. She waves to me and I find myself waving back as I pick up my pace."
@@ -180,7 +184,7 @@ label saki_sc3:
     Hisao "Two stalls? 
     You weren't kidding about being busy."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "We're not on our own."
@@ -200,7 +204,7 @@ label saki_sc3:
 
     "Just as quickly as the cloud descends on her face, it lights up again as she looks off to the side."
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     Saki "Sorry... But it looks like we have someone who wants to try!"
@@ -220,21 +224,21 @@ label saki_sc3:
 
     other "Can I?"
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "Mhmm! That is..."
 
     #"She hesitates, turning a beaming smile towards the couple standing behind the boy."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "If it's okay with your parents?"
 
     "The child looks up towards his mom, his face plastered with the purest look of expectation and longing I think I've ever seen."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     "What makes it even better is that Saki joins her gaze with his, matching his expression perfectly."
@@ -300,14 +304,14 @@ label saki_sc3:
     "The boy shouts, full of accomplishment. Saki then takes the net from him and swiftly deposits his prize into a waiting jar."
 
     scene school_stalls2
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "Good job!"
 
     # "She praises, carefully handing him the fish."
 
-    show saki basic_smile2
+    show saki smile2
     with dissolve
 
     Saki "Now make sure to keep him in a nice clean bowl and feed him every day, okay?"
@@ -333,7 +337,7 @@ label saki_sc3:
 
     Hisao "Okay. What just happened?"
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "What?"
@@ -345,14 +349,14 @@ label saki_sc3:
     Hisao "That net..."
     # Saki laugh
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "Oh, that? Maybe he was just really lucky..."
 
     "The stare I give her lets her know I'm not buying it for a second."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Hisao "Uh huh. And are you going to say you didn't help at all?"
@@ -382,7 +386,7 @@ label saki_sc3:
 
     Hisao "Alright, alright. You win. You're welcome, by the way."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "Honestly, I do appreciate it. We're not the only ones using it today either."
@@ -461,7 +465,7 @@ label saki_sc3:
 
     "Saki quickly retrieves her cane from the back of her chair and sits on the edge of the booth, swinging one leg over followed by the other."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     "She holds out her hand expectantly towards me, waiting for me to help her up."
@@ -585,7 +589,7 @@ label saki_sc3:
 
     Saki "Well..."
     
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     #"Saki drawls, a slight smile coming to her lips in an attempt to cheer me up."
@@ -602,14 +606,14 @@ label saki_sc3:
     Hisao "I guess so. It just... gets to me at times. But still, baby steps, right?"
 
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "Speaking of steps."
 
     "She turns her body back towards the food stalls and inclines her head to make sure I get the hint."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "Can we keep walking? I'm still starving."

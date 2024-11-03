@@ -203,7 +203,7 @@ label saki_sc11:
 
     "She says, making my heart skip a beat with the radiance of the smile she flashes me."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     "I instantly know that Chisato was right."
@@ -279,12 +279,12 @@ label saki_sc11:
 
     Saki "I mean it. If I can still lap you when I get back in the water with an ankle like this, you'll have some explaining to do."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Hisao "And that one sounded like Emi."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     "Despite the easy banter, there's an underlying tension below the surface."
@@ -312,12 +312,12 @@ label saki_sc11:
 
     Hisao "Sure."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "Thanks."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "I can push myself to the elevator, but I don't really feel up to it, with the medication the doctor gave me."
@@ -348,7 +348,7 @@ label saki_sc11:
 
     "I do a good job of not showing it though."
 
-    show saki basic_smile
+    show saki smile1
     with dissolve
 
     Saki "So you said you're doing a group project, right? Who with?"
@@ -371,7 +371,7 @@ label saki_sc11:
 
     Hisao "You wouldn't believe just how much."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "I'm only kidding. Seriously though, good luck with that."
@@ -436,7 +436,7 @@ label saki_sc11:
 
     "I quickly run the water for a second or two before filling up the cup."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     "I carry it back to where Saki's wheeled herself to, near the front of the room."
@@ -493,14 +493,14 @@ label saki_sc11:
 
     Hisao "Feeling better?"
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "Not as good as I'm going to feel in about twenty minutes."
 
     "She leans her head back."
 
-    show saki slight_smile
+    show saki slightsmile
     with dissolve
 
     Saki "Can we stay here for a little bit? It's really nice in here."
@@ -564,7 +564,7 @@ label saki_sc11:
 
     #"I nod weakly."
 
-    show saki slight_smile_closed
+    show saki slightsmileclosed
     with dissolve
 
     Saki "I am glad I got to see you today though. I wanted to thank you."

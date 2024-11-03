@@ -231,7 +231,7 @@ label saki_sc7:
 
     "I manage to splutter out as I turn to find the source of it, slicking my hair back again to try and regain some of my lost dignity."
 
-    show saki slight_smile_closed_swim
+    show saki slightsmileclosed_swim
     with dissolve
 
     "I have another shock when I see who it is... and what she looks like."
@@ -254,7 +254,7 @@ label saki_sc7:
 
     "The sudden, quick flush I feel despite the coolness of the water is proof of that."
 
-    show saki slight_smile_swim
+    show saki slightsmile_swim
     with dissolve
 
     Saki "I was about to ask you the same thing."
@@ -300,7 +300,7 @@ label saki_sc7:
 
     "I agree dejectedly, sinking down into the water up to my chin trying to make myself as small as possible."
 
-    show saki slight_smile_swim
+    show saki slightsmile_swim
     with dissolve
 
     "Saki's laughter finally dies down as she hangs up her towel, taking something small and black from its folds that I didn't notice earlier."
@@ -309,14 +309,14 @@ label saki_sc7:
 
     Hisao "Why are you here? I mean, I know you try to go swimming every morning but I thought you would have been done by now."
 
-    show saki basic_smile_swim
+    show saki smile1_swim
     with dissolve
 
     Saki "Chisato and I didn't get back from town until late last night."
 
     "She places her cane down on the concrete and shakes out the small black bundle. It's a swim cap."
 
-    show saki basic_smile2_swim
+    show saki smile2_swim
     with dissolve
 
     Saki "I slept in a little too late. I guess I'm still tired from the festival."
@@ -415,7 +415,7 @@ label saki_sc7:
 
     "The swimming, however, kind of puzzles me."
 
-    show saki basic_smile2_swim
+    show saki smile2_swim
     with dissolve
 
     "She mentioned she goes to therapy during the week, so why does she swim every day?"
@@ -433,7 +433,7 @@ label saki_sc7:
 
     Hisao "Alright! Yes, I was looking, okay? I'm sorry."
 
-    show saki slight_smile_closed_swim
+    show saki slightsmileclosed_swim
     with dissolve
 
     Saki "Don't be. It's actually kind of flattering. It's nice to see someone not focusing on the cane for once."
@@ -442,7 +442,7 @@ label saki_sc7:
 
     "I shouldn't be surprised at that statement, but I am."
 
-    show saki slight_smile_swim
+    show saki slightsmile_swim
     with dissolve
 
     "Because first of all, this is Yamaku, and second of all, anyone who would see her like this probably wouldn't even notice she had a cane..."
@@ -631,7 +631,7 @@ label saki_sc7:
 
     "My words have the desired effect as her face returns to its normal thousand watt smile."
 
-    show saki slight_smile_swim
+    show saki slightsmile_swim
     with dissolve
 
     Saki "Yeah. It will be you, me, Mrs. Sakamoto, Chisato, and Noriko if she wants to come. We'll do what we need to, go shopping, then probably all have dinner together before coming back to the school. How's that sound?"
@@ -663,7 +663,7 @@ label saki_sc7:
 
     Saki "I think it's a great color! But yeah, I guess the pink gravel's just not manly enough, is it?"
 
-    show saki basic_smile2_swim
+    show saki smile2_swim
     with dissolve
 
     "She says, looking at me with a twinkle in her eyes and her hand hiding her mouth."
@@ -687,7 +687,7 @@ label saki_sc7:
 
     "I try to keep up the bravado as I make bold, confident strides towards my towel hanging on the rack, but the corners of my mouth are quivering, threatening to split into a grin at any moment at how absurd it all is."
 
-    show saki slight_smile_closed_swim
+    show saki slightsmileclosed_swim
     with dissolve
     
     Saki "Alright. We'll make sure to get him something that won't embarrass you."
@@ -698,7 +698,7 @@ label saki_sc7:
 
     "I know I look ridiculous, but well... let's just say it could be worse."
 
-    show saki slight_smile_swim
+    show saki slightsmile_swim
     with dissolve
 
     Saki "Speaking of manly, have you figured out what kind of swim trunks you're planning to get?"
@@ -733,7 +733,7 @@ label saki_sc7:
 
     "But then again, I did give her an excuse."
 
-    show saki basic_smile2_swim
+    show saki smile2_swim
     with dissolve
 
     Saki "Well, for someone who just spent a few months in the hospital anyway."
@@ -749,7 +749,7 @@ label saki_sc7:
 
     Saki "No, I mean it."
 
-    show saki basic_smile2_swim
+    show saki smile2_swim
     with dissolve
 
     Saki "Were you in any sports clubs before you came here?"
@@ -785,17 +785,17 @@ label saki_sc7:
 
     "Do that again without me expecting it and you may just give me another heart attack."
     
-    show saki slight_smile_closed_swim
+    show saki slightsmileclosed_swim
     with dissolve
 
     Hisao "You do know exactly what you're doing, don't you?"
 
-    show saki basic_smile2_swim
+    show saki smile2_swim
     with dissolve
 
     Saki "Yep. Told you I have no shame."
 
-    show saki slight_smile_swim
+    show saki slightsmile_swim
     with dissolve
 
     Saki "But swimming really does work well for me. I need something that works out the full body, and this is a lot more fun than lifting weights or doing situps."
@@ -819,7 +819,7 @@ label saki_sc7:
 
     "I say, looking down at my shirt. I can see the color of my skin in a few areas where the wet fabric rests against my body, but the scar on my chest fortunately isn't raised enough to be seen like that."
 
-    show saki basic_smile2_swim
+    show saki smile2_swim
     with dissolve
 
     Saki "Good!"
@@ -854,7 +854,7 @@ label saki_sc7:
 
     Hisao "Crap. First time doing this, I didn't bring my uniform with me. I still need to run back."
 
-    show saki slight_smile_swim
+    show saki slightsmile_swim
     with dissolve
 
     Saki "You better get going then."

@@ -1,8 +1,6 @@
-label saki_sc6:
+label saki_sc6: 
 
-    stop music fadeout 2.0
-
-    play music daylight fadein 1.5
+    play music daylight fadein 2.0
 
     scene school_dormhisao
     with dissolve
@@ -69,14 +67,12 @@ label saki_sc6:
 
     "Nurse has been friendly, and I can tell he genuinely wants to help, but I get the distinct impression that he's not someone I want to start dodging."
 
-    stop music fadeout 2.0
+    stop music fadeout 1.0
 
     scene school_nursehall
     with Dissolve(1.0)
 
     $ narrator = adv_narrator
-
-    play music school_days fadein 0.5
 
     "I rap my knuckes on the door a few times before opening it a crack."
 
@@ -86,6 +82,8 @@ label saki_sc6:
 
     scene school_nurseoffice
     with dissolve
+
+    play music ah_eh_i_oh_you fadein 2.0
 
     "I open the door fully and step inside. Nurse is seated in his chair, the contents of a folder spread out in front of him on his desk."
 
