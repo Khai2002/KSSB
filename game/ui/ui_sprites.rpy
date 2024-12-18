@@ -124,7 +124,7 @@ init 2 python:
         'smile', 
         'smileclosed'
     ]
-    make_sprites('chisato', chisato_expr_list, scale=chisato_scale)
+    make_sprites('chisato', chisato_expr_list, suffix_list=['cas'], scale=chisato_scale)
 
     # Nurse sprites
     nurse_expr_list = [
