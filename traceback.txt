@@ -1,28 +1,87 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/story/ltf_act_1/scene_4_electricDaisiesPart2.rpy", line 423, in script
-    with test_move
-  File "game/story/ltf_act_1/scene_4_electricDaisiesPart2.rpy", line 423, in <module>
-    with test_move
-NameError: name 'test_move' is not defined
+  File "game/screens.rpy", line 654, in execute
+    screen save():
+  File "game/screens.rpy", line 654, in execute
+    screen save():
+  File "game/screens.rpy", line 658, in execute
+    use file_slots(_("Save"))
+  File "game/screens.rpy", line 668, in execute
+    screen file_slots(title):
+  File "game/screens.rpy", line 668, in execute
+    screen file_slots(title):
+  File "game/screens.rpy", line 672, in execute
+    use game_menu(title):
+  File "game/screens.rpy", line 441, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 441, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 445, in execute
+    if main_menu:
+  File "game/screens.rpy", line 448, in execute
+    add gui.game_menu_background
+  File "game/screens.rpy", line 448, in <module>
+    add gui.game_menu_background
+AttributeError: 'StoreModule' object has no attribute 'game_menu_background'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/story/ltf_act_1/scene_4_electricDaisiesPart2.rpy", line 423, in script
-    with test_move
-  File "E:\renpy-8.0.3-sdk\renpy\ast.py", line 1356, in execute
-    trans = renpy.python.py_eval(self.expr)
-  File "E:\renpy-8.0.3-sdk\renpy\python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "E:\renpy-8.0.3-sdk\renpy\python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/story/ltf_act_1/scene_4_electricDaisiesPart2.rpy", line 423, in <module>
-    with test_move
-NameError: name 'test_move' is not defined
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in script
+    $ ui.interact()
+  File "E:\renpy-8.0.3-sdk\renpy\ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "E:\renpy-8.0.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in <module>
+    $ ui.interact()
+  File "E:\renpy-8.0.3-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "E:\renpy-8.0.3-sdk\renpy\display\core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "E:\renpy-8.0.3-sdk\renpy\display\core.py", line 2745, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "E:\renpy-8.0.3-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "E:\renpy-8.0.3-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "E:\renpy-8.0.3-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  [Previous line repeated 1 more time]
+  File "E:\renpy-8.0.3-sdk\renpy\display\screen.py", line 480, in visit_all
+    callback(self)
+  File "E:\renpy-8.0.3-sdk\renpy\display\core.py", line 2745, in <lambda>
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "E:\renpy-8.0.3-sdk\renpy\display\screen.py", line 491, in per_interact
+    self.update()
+  File "E:\renpy-8.0.3-sdk\renpy\display\screen.py", line 697, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 654, in execute
+    screen save():
+  File "game/screens.rpy", line 654, in execute
+    screen save():
+  File "game/screens.rpy", line 658, in execute
+    use file_slots(_("Save"))
+  File "game/screens.rpy", line 668, in execute
+    screen file_slots(title):
+  File "game/screens.rpy", line 668, in execute
+    screen file_slots(title):
+  File "game/screens.rpy", line 672, in execute
+    use game_menu(title):
+  File "game/screens.rpy", line 441, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 441, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 445, in execute
+    if main_menu:
+  File "game/screens.rpy", line 448, in execute
+    add gui.game_menu_background
+  File "game/screens.rpy", line 448, in <module>
+    add gui.game_menu_background
+AttributeError: 'StoreModule' object has no attribute 'game_menu_background'
 
 Windows-10-10.0.22631 AMD64
-Ren'Py 8.2.3.24061702
+Ren'Py 8.3.4.24120703
 Katawa Shoujo Stories Beyond 1.0
-Mon Oct 21 15:10:17 2024
+Fri Feb 28 18:03:42 2025

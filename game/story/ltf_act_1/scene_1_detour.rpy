@@ -2,8 +2,6 @@ label saki_sc1:
 
     scene school_hallway3_blurred
     with dissolve
-
-    show saki slightsmile_aww_close
     
     stop music fadeout 2.0
 
